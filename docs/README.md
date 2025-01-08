@@ -12,22 +12,46 @@ sqlite3 recipes.db ".read recipes.sql"
 
 ## Alphabetical
 
-- [My Recipe](recipes/my-recipe.md)
-- [Recipe 2](recipes/recipe-2.md)
-- [Test](recipes/test.md)
+- [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
+- [Buttermilk Biscuits](recipes/buttermilk-biscuits.md)
+- [Crock Pot Enchiladas](recipes/crock-pot-enchiladas.md)
+- [Pizza Dough](recipes/pizza-dough.md)
+- [Taco Chili](recipes/taco-chili.md)
 
 ## By Tag
 
-### Sabbath Dinner
+### Baked Goods
 
-Meals we eat on a Sabbath night dinner
 
-- [Recipe 2](recipes/recipe-2.md)
-- [Test](recipes/test.md)
+
+- [Buttermilk Biscuits](recipes/buttermilk-biscuits.md)
+- [Pizza Dough](recipes/pizza-dough.md)
+
+### Dessert
+
+Desserts and other sweets
+
+
+### Sabbath
+
+Meals we eat on a **Sabbath** night dinner
+
+
+### Soup
+
+
+
+- [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
+- [Taco Chili](recipes/taco-chili.md)
 
 ### Unleavened
 
-Food for the **Days of Unleavened Bread**
+Recipes for the **Days of Unleavened Bread**
 
-- [My Recipe](recipes/my-recipe.md)
-- [Recipe 2](recipes/recipe-2.md)
+
+### Winter Meals
+
+Meals that are good during the winter
+
+- [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
+- [Taco Chili](recipes/taco-chili.md)

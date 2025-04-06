@@ -31,6 +31,7 @@ sqlite3 recipes.db ".read recipes.sql"
 - [Honey Wheat Rolls](recipes/honey-wheat-rolls.md)
 - [Matzo Bark](recipes/matzo-bark.md)
 - [Oatmeal Bread](recipes/oatmeal-bread.md)
+- [Pineapple Squares](recipes/pineapple-squares.md)
 - [Pizza Dough](recipes/pizza-dough.md)
 - [Popovers](recipes/popovers.md)
 - [Sweedish Pancakes](recipes/sweedish-pancakes.md)
@@ -39,6 +40,7 @@ sqlite3 recipes.db ".read recipes.sql"
 - [Unleavened Pizza](recipes/unleavened-pizza.md)
 - [Unleavened Tortillas](recipes/unleavened-tortillas.md)
 - [Yeast Waffles](recipes/yeast-waffles.md)
+- [Yum Yum Bars](recipes/yum-yum-bars.md)
 
 ## By Tag
 
@@ -66,6 +68,8 @@ sqlite3 recipes.db ".read recipes.sql"
 Desserts and other sweets
 
 - [Ginger Snaps](recipes/ginger-snaps.md)
+- [Pineapple Squares](recipes/pineapple-squares.md)
+- [Yum Yum Bars](recipes/yum-yum-bars.md)
 
 ### Mexican Dish
 
@@ -104,11 +108,13 @@ Recipes for the **Days of Unleavened Bread**
 - [Golden Delight Pancakes](recipes/golden-delight-pancakes.md)
 - [Matzo Bark](recipes/matzo-bark.md)
 - [Oatmeal Bread](recipes/oatmeal-bread.md)
+- [Pineapple Squares](recipes/pineapple-squares.md)
 - [Popovers](recipes/popovers.md)
 - [Sweedish Pancakes](recipes/sweedish-pancakes.md)
 - [Swiss Butterhorns](recipes/swiss-butterhorns.md)
 - [Unleavened Pizza](recipes/unleavened-pizza.md)
 - [Unleavened Tortillas](recipes/unleavened-tortillas.md)
+- [Yum Yum Bars](recipes/yum-yum-bars.md)
 
 ### Vegetable Dish
 

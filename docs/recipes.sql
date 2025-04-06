@@ -39,6 +39,8 @@ INSERT INTO recipes VALUES(24,'Chicken Tortilla Soup',replace('1. Use butter to 
 INSERT INTO recipes VALUES(25,'Grilled Zucchini & Squash',replace('Preheat oven to 425°F.\n\n1. Put parchment paper on cooking sheet. Cut zucchini & squash into small pieces.\n2. Spray olive oil on the vegetables. Add salt, pepper, and 21 seasoning salute.\n\nBake for 20 minutes.','\n',char(10)),'');
 INSERT INTO recipes VALUES(26,'Butternut Squash',replace('Preheat oven to 350°F.\n\n1. Cut off stem and cut in half. Use a spoon to scoop out the seeds.\n2. Spray olive oil on open face. (_Not a lot, just enough to prevent sticking._)\n3. Put parchment paper on baking sheet and lay open side face-down.\n4. Bake for 45 to 60 minutes until inside is soft like a baked potato. Cooking time varies by the size of the squash.\n5. Scoop out the inside. Can whip with a hand mixer or mash with a fork / spoon.','\n',char(10)),'');
 INSERT INTO recipes VALUES(27,'Chicken Pot Pie',replace('Preheat oven to 350°F.\n\n1. Put chicken in sauce pan. Add and melt butter. Add white flour to thicken.\n2. Add chicken broth and stir until thick and bubbly. Also add salt, pepper, and 21 seasoning salute.\n3. Add frozen vegetables (_do not need to be cooked beforehand_) and let the mixture simmer for awhile.\n4. Pour into casserole dish and place puff pastry sheet on top.\n\nBake for 20 to 30 minutes, following instructions on puff pastry package.','\n',char(10)),'');
+INSERT INTO recipes VALUES(28,'Yum Yum Bars',replace('Preheat oven to 350°F.\n\n1. Mix butter and sugar in stand mixer until it is creamy and all mixed together. (Creaming)\n2. Add eggs, one-at-a-time. Mix one egg in **before** mixing in the next egg. Then add vanilla.\n3. Mix flour and salt in a separate bowl. Add gradually to cream while mixing.\n4. Add half of the walnuts and butterscotch chips.\n5. Grease 9x13 pan and add batter. Use spoon to press remaining walnuts and butterscotch chips into the batter.\n\nBake for 25 minutes.','\n',char(10)),'');
+INSERT INTO recipes VALUES(29,'Pineapple Squares',replace('Preheat oven to 350°F.\n\n1. Mix butter and sugar in stand mixer until it is creamy and all mixed together. (Creaming)\n2. Mix in egg, then add vanilla.\n3. Mix flour and salt in a separate bowl. Add flour and pineapple gradually to cream while mixing. Use all the pineapple in this step.\n4. Add half of the shredded coconut.\n5. Grease 9x13 pan and add batter. Use spoon to press remaining shredded coconut into the batter.\n\nBake for 25 minutes.','\n',char(10)),'You can optionally add ½ cup of chopped pecans on top. Don''t mix them into the batter; just put them on top and press in with a spoon.');
 CREATE TABLE ingredients (
   id INTEGER NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL);
@@ -127,6 +129,9 @@ INSERT INTO ingredients VALUES(82,'Squash');
 INSERT INTO ingredients VALUES(83,'Butternut Squash');
 INSERT INTO ingredients VALUES(84,'Frozen Mixed Vegetables');
 INSERT INTO ingredients VALUES(85,'Puff Pastry Sheet');
+INSERT INTO ingredients VALUES(86,'Butterscotch Chips');
+INSERT INTO ingredients VALUES(87,'Crushed Pineapple');
+INSERT INTO ingredients VALUES(88,'Shredded Coconut');
 CREATE TABLE recipe_ingredients (
   recipe_id INTEGER NOT NULL,
   ingredient_id INTEGER NOT NULL,
@@ -338,6 +343,22 @@ INSERT INTO recipe_ingredients VALUES(27,85,6,'1','');
 INSERT INTO recipe_ingredients VALUES(27,11,7,'','');
 INSERT INTO recipe_ingredients VALUES(27,12,8,'','');
 INSERT INTO recipe_ingredients VALUES(27,68,9,'','');
+INSERT INTO recipe_ingredients VALUES(28,4,1,'2 Sticks (1 cup)','Softened');
+INSERT INTO recipe_ingredients VALUES(28,58,2,'2 Cups','');
+INSERT INTO recipe_ingredients VALUES(28,47,3,'3','');
+INSERT INTO recipe_ingredients VALUES(28,69,4,'3 Teaspoons','');
+INSERT INTO recipe_ingredients VALUES(28,50,5,'3 Cups','');
+INSERT INTO recipe_ingredients VALUES(28,11,6,'1 ½ Teaspoons','');
+INSERT INTO recipe_ingredients VALUES(28,54,7,'1 Cup','Chopped');
+INSERT INTO recipe_ingredients VALUES(28,86,8,'1 Package','');
+INSERT INTO recipe_ingredients VALUES(29,4,1,'2 Sticks (1 cup)','Softened');
+INSERT INTO recipe_ingredients VALUES(29,58,2,'1 Cup','');
+INSERT INTO recipe_ingredients VALUES(29,38,3,'1','');
+INSERT INTO recipe_ingredients VALUES(29,69,4,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(29,87,5,'20 Oz. Can','Drained');
+INSERT INTO recipe_ingredients VALUES(29,50,6,'3 Cups','');
+INSERT INTO recipe_ingredients VALUES(29,11,7,'1 ½ Teaspoons','');
+INSERT INTO recipe_ingredients VALUES(29,88,8,'1 Cup','');
 CREATE TABLE tags (
   id VARCHAR(255) NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -389,5 +410,9 @@ INSERT INTO recipe_tags VALUES(23,'dessert');
 INSERT INTO recipe_tags VALUES(26,'vegetable');
 INSERT INTO recipe_tags VALUES(25,'vegetable');
 INSERT INTO recipe_tags VALUES(24,'soup');
+INSERT INTO recipe_tags VALUES(28,'dessert');
+INSERT INTO recipe_tags VALUES(28,'unleavened');
+INSERT INTO recipe_tags VALUES(29,'dessert');
+INSERT INTO recipe_tags VALUES(29,'unleavened');
 CREATE INDEX recipes_name_index ON recipes (name);
 COMMIT;

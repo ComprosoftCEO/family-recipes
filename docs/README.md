@@ -14,11 +14,14 @@ sqlite3 recipes.db ".read recipes.sql"
 
 - [Baked Potato](recipes/baked-potato.md)
 - [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
+- [Buffalo Chicken Chili](recipes/buffalo-chicken-chili.md)
 - [Buttermilk Biscuits](recipes/buttermilk-biscuits.md)
 - [Butternut Squash](recipes/butternut-squash.md)
 - [Cheese Bread](recipes/cheese-bread.md)
 - [Cheese Straws](recipes/cheese-straws.md)
 - [Chicken Pot Pie](recipes/chicken-pot-pie.md)
+- [Chicken Tikka Masala](recipes/chicken-tikka-masala.md)
+- [Chicken Tikka Masala Marinade](recipes/chicken-tikka-masala-marinade.md)
 - [Chicken Tortilla Soup](recipes/chicken-tortilla-soup.md)
 - [Chili](recipes/chili.md)
 - [Creamy Chicken with Penne](recipes/creamy-chicken-with-penne.md)
@@ -29,11 +32,14 @@ sqlite3 recipes.db ".read recipes.sql"
 - [Golden Delight Pancakes](recipes/golden-delight-pancakes.md)
 - [Grilled Zucchini & Squash](recipes/grilled-zucchini-&-squash.md)
 - [Honey Wheat Rolls](recipes/honey-wheat-rolls.md)
+- [Macaroni & Cheese](recipes/macaroni-&-cheese.md)
 - [Matzo Bark](recipes/matzo-bark.md)
 - [Oatmeal Bread](recipes/oatmeal-bread.md)
+- [Peanut Butter Cookies](recipes/peanut-butter-cookies.md)
 - [Pineapple Squares](recipes/pineapple-squares.md)
 - [Pizza Dough](recipes/pizza-dough.md)
 - [Popovers](recipes/popovers.md)
+- [Saffron Rice](recipes/saffron-rice.md)
 - [Sweedish Pancakes](recipes/sweedish-pancakes.md)
 - [Swiss Butterhorns](recipes/swiss-butterhorns.md)
 - [Taco Chili](recipes/taco-chili.md)
@@ -68,8 +74,17 @@ sqlite3 recipes.db ".read recipes.sql"
 Desserts and other sweets
 
 - [Ginger Snaps](recipes/ginger-snaps.md)
+- [Peanut Butter Cookies](recipes/peanut-butter-cookies.md)
 - [Pineapple Squares](recipes/pineapple-squares.md)
 - [Yum Yum Bars](recipes/yum-yum-bars.md)
+
+### Indian Food
+
+
+
+- [Chicken Tikka Masala](recipes/chicken-tikka-masala.md)
+- [Chicken Tikka Masala Marinade](recipes/chicken-tikka-masala-marinade.md)
+- [Saffron Rice](recipes/saffron-rice.md)
 
 ### Mexican Dish
 
@@ -94,6 +109,7 @@ Meals we eat on a **Sabbath** night dinner
 
 
 - [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
+- [Buffalo Chicken Chili](recipes/buffalo-chicken-chili.md)
 - [Chicken Tortilla Soup](recipes/chicken-tortilla-soup.md)
 - [Chili](recipes/chili.md)
 - [Taco Chili](recipes/taco-chili.md)

@@ -41,6 +41,12 @@ INSERT INTO recipes VALUES(26,'Butternut Squash',replace('Preheat oven to 350°F
 INSERT INTO recipes VALUES(27,'Chicken Pot Pie',replace('Preheat oven to 350°F.\n\n1. Put chicken in sauce pan. Add and melt butter. Add white flour to thicken.\n2. Add chicken broth and stir until thick and bubbly. Also add salt, pepper, and 21 seasoning salute.\n3. Add frozen vegetables (_do not need to be cooked beforehand_) and let the mixture simmer for awhile.\n4. Pour into casserole dish and place puff pastry sheet on top.\n\nBake for 20 to 30 minutes, following instructions on puff pastry package.','\n',char(10)),'');
 INSERT INTO recipes VALUES(28,'Yum Yum Bars',replace('Preheat oven to 350°F.\n\n1. Mix butter and sugar in stand mixer until it is creamy and all mixed together. (Creaming)\n2. Add eggs, one-at-a-time. Mix one egg in **before** mixing in the next egg. Then add vanilla.\n3. Mix flour and salt in a separate bowl. Add gradually to cream while mixing.\n4. Add half of the walnuts and butterscotch chips.\n5. Grease 9x13 pan and add batter. Use spoon to press remaining walnuts and butterscotch chips into the batter.\n\nBake for 25 minutes.','\n',char(10)),'');
 INSERT INTO recipes VALUES(29,'Pineapple Squares',replace('Preheat oven to 350°F.\n\n1. Mix butter and sugar in stand mixer until it is creamy and all mixed together. (Creaming)\n2. Mix in egg, then add vanilla.\n3. Mix flour and salt in a separate bowl. Add flour and pineapple gradually to cream while mixing. Use all the pineapple in this step.\n4. Add half of the shredded coconut.\n5. Grease 9x13 pan and add batter. Use spoon to press remaining shredded coconut into the batter.\n\nBake for 25 minutes.','\n',char(10)),'You can optionally add ½ cup of chopped pecans on top. Don''t mix them into the batter; just put them on top and press in with a spoon.');
+INSERT INTO recipes VALUES(30,'Peanut Butter Cookies',replace('Preheat oven to 350°F.\n\n1. In a medium bowl, beat together peanut butter, brown sugar, egg, and baking soda until the mixture is smooth and well-blended.\n2. Stir in chocolate chips until evenly distributed.\n3. Drop teaspoonfuls of slightly rounded dough onto **un**greased baking sheets. Space the mounds about 2 inches apart.\n\nBake about 10 minutes until the cookies are puffed and slightly golden, but still soft to the touch.\n\nLet them cool on the baking sheet for about 5 minutes before transferring to a wire rack to cool completely.','\n',char(10)),'');
+INSERT INTO recipes VALUES(31,'Saffron Rice',replace('1. Take ⅛ teaspoon of saffron threads and put them in a spice mortar. Grind the spice with a pestle to a powdery consistency. Add the other ⅛ teaspoon of threads, but do not crush them.\n2. Pour ¼ of hot water into the mortar. Let all the saffron soak for 5 minutes. This will open up the flavor of the spice.\n3. Meanwhile, rinse the basmati rice in a colander and drain.\n4. In a large pot, heat extra virgin olive oil over medium. Sauté the minced onion for about 10 minutes, until the onion is soft and begins to caramelize.\n5. Add rinsed rice to the pot and sauté for one minute longer, mixing the rice together with the cooked onion.\n6. Pour the yellow soaked saffron liquid evenly across the top of the rice.\n7. Add the chicken broth and salt to the rice mixture.\n\n**If cooking on the stove:**\n1. Bring rice to a boil, stir. Bring back to a boil for 30 seconds.\n2. Cover the pot and reduce heat to low. Let the rice cook for 20 minutes.\n3. Turn off the heat, but keep pot covered, and continue to let the rice sit and steam in the covered pot for 10 minutes longer.\n\n**If cooking in an Instant Pot:**\n1. Add a little extra water for the pressure cook.\n2. Cook in the `Rice` setting on low for 4 minutes.\n3. Let the rice cool for 10 minutes, then release the remaining steam.\n\nFluff the rice with a fork before serving, stirring well to break the rice and incorporate the cooked onion.','\n',char(10)),'');
+INSERT INTO recipes VALUES(32,'Chicken Tikka Masala Marinade',replace('1. In a bowl, combine chicken with all the marinade spices.\n2. Marinate for 10 minutes to 1 hour, or even overnight if time allows.','\n',char(10)),'');
+INSERT INTO recipes VALUES(33,'Chicken Tikka Masala',replace('1. Heat oil in a large skillet or pot over medium-high heat. When sizzling, add chicken pieces in batches of two or three, making sure to not crowd the pan. Fry until browned for only 3 minutes on each side. Set aside and keep warn. (_The chicken will be finished cooking in the sauce._)\n2. Melt the butter in the same pan. Fry the onions until soft (about 3 minutes) while scraping up any browned bits stuck on the bottom of the pan.\n3. Add garlic and ginger. Sauté for 1 minute until fragrant, then add garam masala, cumin, tumeric, and coriander. Fry for about 20 seconds until fragrant, while stirring occasionally.\n4. Pour in the tomato puree, chili powders, and salt. Let simmer for about 10-15 minutes, stirring occasionally until sauce thickens and becomes a deep brown red color.\n5. Stir the cream and sugar through the sauce.\n6. Add the chicken and its juices back into the pan and cook for an additional 8-10 minutes until chicken is cooned through and the sauce is thick and bubbling. If needed, pour in water to thin out the sauce.\n\nGarnish with cilantro if desired.','\n',char(10)),'');
+INSERT INTO recipes VALUES(34,'Buffalo Chicken Chili',replace('1. Cook chicken in olive oil, breaking meat until small pieces until cooked throughout (about 8-10 minutes). Set aside and keep warm.\n2. Chop baby carrots into small pieces. Place in water and microwave for 4-5 minutes until soft.\n3. In the same (now empty) pan, add onion, carrot, celery, garlic, chili powder, cumin, paprika, salt, and pepper. Cook while stirring until the vegetables soften (about 5-6 minutes).\n4. Add white beans, refried beans, chicken broth, water, and chicken. Bring to a boil and simmer covered on medium-low about 25-30 minutes, stirring occasionally.','\n',char(10)),'');
+INSERT INTO recipes VALUES(35,'Macaroni & Cheese',replace('Preheat oven to 350°F.\n\n1. Cook macaroni noodles as directed on package.\n2. While macaroni is cooking, melt butter in 3-quart saucepan over low heat. Stir in flour, salt, pepper, dry mustard, and Worcestershire sauce. Cook over low heat, stirring constantly, until mixture is smooth and bubbly; remove from heat.\n3. Stir in milk. Heat to boiling, stirring constantly. Boil and stir 1 minute.\n4. Stir in cheese. Cook, stirring occasionally, until cheese is melted.\n5. Drain macaroni. _Gently_ stir macaroni into cheese sauce.\n\nPour into _ungreased_ 2-quart casserole. Bake uncovered for 20 to 25 minutes or until bubbly.','\n',char(10)),'');
 CREATE TABLE ingredients (
   id INTEGER NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL);
@@ -132,6 +138,25 @@ INSERT INTO ingredients VALUES(85,'Puff Pastry Sheet');
 INSERT INTO ingredients VALUES(86,'Butterscotch Chips');
 INSERT INTO ingredients VALUES(87,'Crushed Pineapple');
 INSERT INTO ingredients VALUES(88,'Shredded Coconut');
+INSERT INTO ingredients VALUES(89,'Peanut Butter');
+INSERT INTO ingredients VALUES(90,'Saffron');
+INSERT INTO ingredients VALUES(91,'Basmati Rice');
+INSERT INTO ingredients VALUES(92,'Chicken');
+INSERT INTO ingredients VALUES(93,'Plain Greek Yogurt');
+INSERT INTO ingredients VALUES(94,'Garam Masala');
+INSERT INTO ingredients VALUES(95,'Turmeric');
+INSERT INTO ingredients VALUES(96,'Kashmiri Chili');
+INSERT INTO ingredients VALUES(97,'Ground Coriander');
+INSERT INTO ingredients VALUES(98,'Tomato Puree');
+INSERT INTO ingredients VALUES(99,'Red Chili Powder');
+INSERT INTO ingredients VALUES(100,'Cilantro');
+INSERT INTO ingredients VALUES(101,'Baby Carrots');
+INSERT INTO ingredients VALUES(102,'Celery');
+INSERT INTO ingredients VALUES(103,'Great Northern White Beans');
+INSERT INTO ingredients VALUES(104,'Refried Beans');
+INSERT INTO ingredients VALUES(105,'Macaroni Noodles');
+INSERT INTO ingredients VALUES(106,'Ground Mustard');
+INSERT INTO ingredients VALUES(107,'Worcestershire Sauce');
 CREATE TABLE recipe_ingredients (
   recipe_id INTEGER NOT NULL,
   ingredient_id INTEGER NOT NULL,
@@ -359,6 +384,68 @@ INSERT INTO recipe_ingredients VALUES(29,87,5,'20 Oz. Can','Drained');
 INSERT INTO recipe_ingredients VALUES(29,50,6,'3 Cups','');
 INSERT INTO recipe_ingredients VALUES(29,11,7,'1 ½ Teaspoons','');
 INSERT INTO recipe_ingredients VALUES(29,88,8,'1 Cup','');
+INSERT INTO recipe_ingredients VALUES(30,89,1,'1 Cup','Chunky or creamy');
+INSERT INTO recipe_ingredients VALUES(30,58,2,'1 Cup','');
+INSERT INTO recipe_ingredients VALUES(30,38,3,'1','Slightly beaten');
+INSERT INTO recipe_ingredients VALUES(30,70,4,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(30,59,5,'1 Cup (6 Oz)','Semisweet');
+INSERT INTO recipe_ingredients VALUES(31,90,1,'¼ Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(31,26,2,'¼ Cup','Hot');
+INSERT INTO recipe_ingredients VALUES(31,1,3,'¾ Cup','Minced');
+INSERT INTO recipe_ingredients VALUES(31,91,4,'2 Cups','');
+INSERT INTO recipe_ingredients VALUES(31,7,5,'3 Cups','3 cups of water with 3 teaspoons of Better Than Bullion');
+INSERT INTO recipe_ingredients VALUES(31,11,6,'¾ Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(34,92,1,'1 Pound','');
+INSERT INTO recipe_ingredients VALUES(34,5,2,'1 Tablespoon','');
+INSERT INTO recipe_ingredients VALUES(34,1,3,'1','');
+INSERT INTO recipe_ingredients VALUES(34,101,4,'½ Cup','Chopped');
+INSERT INTO recipe_ingredients VALUES(34,102,5,'½ Cup','Chopped');
+INSERT INTO recipe_ingredients VALUES(34,76,6,'3 Cloves','Minced');
+INSERT INTO recipe_ingredients VALUES(34,41,7,'1 ½ Teaspoons','');
+INSERT INTO recipe_ingredients VALUES(34,78,8,'1 ½ Teaspoons','');
+INSERT INTO recipe_ingredients VALUES(34,42,9,'1 ½ Teaspoons','');
+INSERT INTO recipe_ingredients VALUES(34,103,10,'15.5 Oz Can','Undrained');
+INSERT INTO recipe_ingredients VALUES(34,104,11,'16 Oz Can','');
+INSERT INTO recipe_ingredients VALUES(34,7,12,'1 Cup','');
+INSERT INTO recipe_ingredients VALUES(34,26,13,'½ Cup','');
+INSERT INTO recipe_ingredients VALUES(34,79,14,'½ Cup','');
+INSERT INTO recipe_ingredients VALUES(34,11,15,'','');
+INSERT INTO recipe_ingredients VALUES(34,12,16,'','');
+INSERT INTO recipe_ingredients VALUES(35,105,1,'2 Cups (7 OZ)','');
+INSERT INTO recipe_ingredients VALUES(35,4,2,'¼ Cup','');
+INSERT INTO recipe_ingredients VALUES(35,24,3,'¼ Cup','');
+INSERT INTO recipe_ingredients VALUES(35,11,4,'½ Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(35,12,5,'¼ Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(35,106,6,'¼ Teaspoon','Dry');
+INSERT INTO recipe_ingredients VALUES(35,107,7,'¼ Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(35,8,8,'2 Cups','');
+INSERT INTO recipe_ingredients VALUES(35,10,9,'2 Cups (8 Oz)','Can also use **Pub Cheese**');
+INSERT INTO recipe_ingredients VALUES(32,92,1,'28 Oz','Boneless and skinless chicken thighs, or chicken breasts');
+INSERT INTO recipe_ingredients VALUES(32,93,2,'1 Cup','');
+INSERT INTO recipe_ingredients VALUES(32,76,3,'1 ½ Tablespoons','Minced');
+INSERT INTO recipe_ingredients VALUES(32,94,4,'2 Teaspoons','');
+INSERT INTO recipe_ingredients VALUES(32,95,5,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(32,78,6,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(32,96,7,'1 Teaspoon','Or ½ teaspoon ground red chili powder');
+INSERT INTO recipe_ingredients VALUES(32,11,8,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(33,92,1,'28 Oz','Marinated following [the recipe](chicken-tikka-masala-marinade.md)');
+INSERT INTO recipe_ingredients VALUES(33,71,2,'2 Tablespoons','');
+INSERT INTO recipe_ingredients VALUES(33,4,3,'2 Tablespoons','');
+INSERT INTO recipe_ingredients VALUES(33,1,4,'','Diced');
+INSERT INTO recipe_ingredients VALUES(33,76,5,'1 ½ Tablespoons','Finely grated');
+INSERT INTO recipe_ingredients VALUES(33,74,6,'1 Tablespoon','Finely grated');
+INSERT INTO recipe_ingredients VALUES(33,94,7,'1 ½ Teaspoons','');
+INSERT INTO recipe_ingredients VALUES(33,78,8,'1 ½ Teaspoons','');
+INSERT INTO recipe_ingredients VALUES(33,95,9,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(33,97,10,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(33,98,11,'14 Oz','');
+INSERT INTO recipe_ingredients VALUES(33,96,12,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(33,99,13,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(33,11,14,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(33,35,15,'1 ¼ Cups','');
+INSERT INTO recipe_ingredients VALUES(33,58,16,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(33,26,17,'¼ Cup','_If needed_');
+INSERT INTO recipe_ingredients VALUES(33,100,18,'4 Tablespoons','_For garnish_');
 CREATE TABLE tags (
   id VARCHAR(255) NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -373,6 +460,7 @@ INSERT INTO tags VALUES('pasta','Pasta Dish','');
 INSERT INTO tags VALUES('mexican','Mexican Dish','');
 INSERT INTO tags VALUES('breakfast','Breakfast','');
 INSERT INTO tags VALUES('vegetable','Vegetable Dish','');
+INSERT INTO tags VALUES('indian','Indian Food','');
 CREATE TABLE recipe_tags (
   recipe_id INTEGER NOT NULL,
   tag_id VARCHAR(255) NOT NULL,
@@ -414,5 +502,10 @@ INSERT INTO recipe_tags VALUES(28,'dessert');
 INSERT INTO recipe_tags VALUES(28,'unleavened');
 INSERT INTO recipe_tags VALUES(29,'dessert');
 INSERT INTO recipe_tags VALUES(29,'unleavened');
+INSERT INTO recipe_tags VALUES(30,'dessert');
+INSERT INTO recipe_tags VALUES(31,'indian');
+INSERT INTO recipe_tags VALUES(34,'soup');
+INSERT INTO recipe_tags VALUES(32,'indian');
+INSERT INTO recipe_tags VALUES(33,'indian');
 CREATE INDEX recipes_name_index ON recipes (name);
 COMMIT;

@@ -32,6 +32,7 @@ sqlite3 recipes.db ".read recipes.sql"
 - [Golden Delight Pancakes](recipes/golden-delight-pancakes.md)
 - [Grilled Zucchini & Squash](recipes/grilled-zucchini-&-squash.md)
 - [Honey Wheat Rolls](recipes/honey-wheat-rolls.md)
+- [Lasagna](recipes/lasagna.md)
 - [Macaroni & Cheese](recipes/macaroni-&-cheese.md)
 - [Matzo Bark](recipes/matzo-bark.md)
 - [Oatmeal Bread](recipes/oatmeal-bread.md)

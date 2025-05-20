@@ -48,6 +48,7 @@ INSERT INTO recipes VALUES(33,'Chicken Tikka Masala',replace('1. Heat oil in a l
 INSERT INTO recipes VALUES(34,'Buffalo Chicken Chili',replace('1. Cook chicken in olive oil, breaking meat until small pieces until cooked throughout (about 8-10 minutes). Set aside and keep warm.\n2. Chop baby carrots into small pieces. Place in water and microwave for 4-5 minutes until soft.\n3. In the same (now empty) pan, add onion, carrot, celery, garlic, chili powder, cumin, paprika, salt, and pepper. Cook while stirring until the vegetables soften (about 5-6 minutes).\n4. Add white beans, refried beans, chicken broth, water, and chicken. Bring to a boil and simmer covered on medium-low about 25-30 minutes, stirring occasionally.','\n',char(10)),'');
 INSERT INTO recipes VALUES(35,'Macaroni & Cheese',replace('Preheat oven to 350°F.\n\n1. Cook macaroni noodles as directed on package.\n2. While macaroni is cooking, melt butter in 3-quart saucepan over low heat. Stir in flour, salt, pepper, dry mustard, and Worcestershire sauce. Cook over low heat, stirring constantly, until mixture is smooth and bubbly; remove from heat.\n3. Stir in milk. Heat to boiling, stirring constantly. Boil and stir 1 minute.\n4. Stir in cheese. Cook, stirring occasionally, until cheese is melted.\n5. Drain macaroni. _Gently_ stir macaroni into cheese sauce.\n\nPour into _ungreased_ 2-quart casserole. Bake uncovered for 20 to 25 minutes or until bubbly.','\n',char(10)),'');
 INSERT INTO recipes VALUES(36,'Lasagna',replace('1. Brown meat with garlic and seasonings.\n2. In a bowl mix ricotta, cheese blend and spinach. (I keep some of the cheese out to sprinkle on top)\n\n**For Crockpot:**\n\n1. Spray interior of crockpot with cooking spray.\n2. Cover the bottom of the crockpot with lasagna noodles, breaking noodles apart to make them fit.\n3. Spread with half of the meat mixture, and cover with half of the pasta sauce and half of the water.\n4. Spread half of the ricotta mixture over the meat.\n5. Repeat with the other half of the noodles, meat and cheese.\n6. Sprinkle extra cheese on top.\n\nCook on low for 4.5 to 5 hours.\n\n---\n\n**For Oven:**\n\nPreheat oven to 350°F\n\n1. Spray a 9 x 13-inch dish with cooking spray.\n2. Spread a small amount of pasta sauce over the bottom of the dish.\n3. Cover with lasagna noodles.\n4. Spread half of the meat mixture over the noodles.\n5. Cover with ½ of the sauce and half of the water.\n6. Cover with ½ of the ricotta mixture.\n7. Repeat using the rest of the noodles, sauce, meat and cheese mixture.\n8. Sprinkle the top with extra cheese.\n\nCover with aluminum foil that has been sprayed with cooking spray so that it does not stick to the cheese.\n\nBake 1 hour. Remove foil and bake about 10 minutes more until bubbly and slightly browned on top.','\n',char(10)),'');
+INSERT INTO recipes VALUES(37,'Fish Tacos',replace('Preheat oven to 400°F.\n\n1. Brush olive oil onto both sides of thawed tilapia filets.\n2. Rub taco seasoning onto both sides.\n\nBake for 20 minutes on aluminum foil until flesh is flaky.','\n',char(10)),'');
 CREATE TABLE ingredients (
   id INTEGER NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL);
@@ -166,6 +167,7 @@ INSERT INTO ingredients VALUES(112,'Shredded Italian Blend Cheese');
 INSERT INTO ingredients VALUES(113,'Frozen Chopped Spinach');
 INSERT INTO ingredients VALUES(114,'Lasagna Noodles');
 INSERT INTO ingredients VALUES(115,'Pasta Sauce');
+INSERT INTO ingredients VALUES(116,'Frozen Tilapia');
 CREATE TABLE recipe_ingredients (
   recipe_id INTEGER NOT NULL,
   ingredient_id INTEGER NOT NULL,
@@ -466,6 +468,9 @@ INSERT INTO recipe_ingredients VALUES(36,113,8,'1 Package (10 oz.)','Thawed and 
 INSERT INTO recipe_ingredients VALUES(36,114,9,'','');
 INSERT INTO recipe_ingredients VALUES(36,115,10,'1 jar (26 oz.)','');
 INSERT INTO recipe_ingredients VALUES(36,26,11,'½ Cup','');
+INSERT INTO recipe_ingredients VALUES(37,116,1,'','Thawed');
+INSERT INTO recipe_ingredients VALUES(37,21,2,'','');
+INSERT INTO recipe_ingredients VALUES(37,5,3,'','');
 CREATE TABLE tags (
   id VARCHAR(255) NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -527,5 +532,6 @@ INSERT INTO recipe_tags VALUES(31,'indian');
 INSERT INTO recipe_tags VALUES(34,'soup');
 INSERT INTO recipe_tags VALUES(32,'indian');
 INSERT INTO recipe_tags VALUES(33,'indian');
+INSERT INTO recipe_tags VALUES(37,'mexican');
 CREATE INDEX recipes_name_index ON recipes (name);
 COMMIT;

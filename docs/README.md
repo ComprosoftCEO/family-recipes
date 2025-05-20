@@ -28,6 +28,7 @@ sqlite3 recipes.db ".read recipes.sql"
 - [Crock Pot Enchiladas](recipes/crock-pot-enchiladas.md)
 - [Egg Casserole](recipes/egg-casserole.md)
 - [Egg and Onion Matzo](recipes/egg-and-onion-matzo.md)
+- [Fish Tacos](recipes/fish-tacos.md)
 - [Ginger Snaps](recipes/ginger-snaps.md)
 - [Golden Delight Pancakes](recipes/golden-delight-pancakes.md)
 - [Grilled Zucchini & Squash](recipes/grilled-zucchini-&-squash.md)
@@ -92,6 +93,7 @@ Desserts and other sweets
 
 
 - [Crock Pot Enchiladas](recipes/crock-pot-enchiladas.md)
+- [Fish Tacos](recipes/fish-tacos.md)
 
 ### Pasta Dish
 

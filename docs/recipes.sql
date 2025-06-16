@@ -49,6 +49,7 @@ INSERT INTO recipes VALUES(34,'Buffalo Chicken Chili',replace('1. Cook chicken i
 INSERT INTO recipes VALUES(35,'Macaroni & Cheese',replace('Preheat oven to 350°F.\n\n1. Cook macaroni noodles as directed on package.\n2. While macaroni is cooking, melt butter in 3-quart saucepan over low heat. Stir in flour, salt, pepper, dry mustard, and Worcestershire sauce. Cook over low heat, stirring constantly, until mixture is smooth and bubbly; remove from heat.\n3. Stir in milk. Heat to boiling, stirring constantly. Boil and stir 1 minute.\n4. Stir in cheese. Cook, stirring occasionally, until cheese is melted.\n5. Drain macaroni. _Gently_ stir macaroni into cheese sauce.\n\nPour into _ungreased_ 2-quart casserole. Bake uncovered for 20 to 25 minutes or until bubbly.','\n',char(10)),'');
 INSERT INTO recipes VALUES(36,'Lasagna',replace('1. Brown meat with garlic and seasonings.\n2. In a bowl mix ricotta, cheese blend and spinach. (I keep some of the cheese out to sprinkle on top)\n\n**For Crockpot:**\n\n1. Spray interior of crockpot with cooking spray.\n2. Cover the bottom of the crockpot with lasagna noodles, breaking noodles apart to make them fit.\n3. Spread with half of the meat mixture, and cover with half of the pasta sauce and half of the water.\n4. Spread half of the ricotta mixture over the meat.\n5. Repeat with the other half of the noodles, meat and cheese.\n6. Sprinkle extra cheese on top.\n\nCook on low for 4.5 to 5 hours.\n\n---\n\n**For Oven:**\n\nPreheat oven to 350°F\n\n1. Spray a 9 x 13-inch dish with cooking spray.\n2. Spread a small amount of pasta sauce over the bottom of the dish.\n3. Cover with lasagna noodles.\n4. Spread half of the meat mixture over the noodles.\n5. Cover with ½ of the sauce and half of the water.\n6. Cover with ½ of the ricotta mixture.\n7. Repeat using the rest of the noodles, sauce, meat and cheese mixture.\n8. Sprinkle the top with extra cheese.\n\nCover with aluminum foil that has been sprayed with cooking spray so that it does not stick to the cheese.\n\nBake 1 hour. Remove foil and bake about 10 minutes more until bubbly and slightly browned on top.','\n',char(10)),'');
 INSERT INTO recipes VALUES(37,'Fish Tacos',replace('Preheat oven to 400°F.\n\n1. Brush olive oil onto both sides of thawed tilapia filets.\n2. Rub taco seasoning onto both sides.\n\nBake for 20 minutes on aluminum foil until flesh is flaky.','\n',char(10)),'');
+INSERT INTO recipes VALUES(38,'Asparagus',replace('Preheat oven to 425°F\n\n1. Cut off tough ends of asparagus\n2. Put asparagus on aluminum foil on baking sheet. Spray olive oil on top. Sprinkle salt and pepper.\n\nBake for 12-15 minutes.','\n',char(10)),'');
 CREATE TABLE ingredients (
   id INTEGER NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL);
@@ -168,6 +169,7 @@ INSERT INTO ingredients VALUES(113,'Frozen Chopped Spinach');
 INSERT INTO ingredients VALUES(114,'Lasagna Noodles');
 INSERT INTO ingredients VALUES(115,'Pasta Sauce');
 INSERT INTO ingredients VALUES(116,'Frozen Tilapia');
+INSERT INTO ingredients VALUES(117,'Asparagus');
 CREATE TABLE recipe_ingredients (
   recipe_id INTEGER NOT NULL,
   ingredient_id INTEGER NOT NULL,
@@ -355,21 +357,6 @@ INSERT INTO recipe_ingredients VALUES(25,11,5,'','');
 INSERT INTO recipe_ingredients VALUES(25,12,6,'','');
 INSERT INTO recipe_ingredients VALUES(26,83,1,'','');
 INSERT INTO recipe_ingredients VALUES(26,62,2,'','');
-INSERT INTO recipe_ingredients VALUES(24,4,1,'2 Tablespoons','');
-INSERT INTO recipe_ingredients VALUES(24,1,2,'1','');
-INSERT INTO recipe_ingredients VALUES(24,75,3,'2','');
-INSERT INTO recipe_ingredients VALUES(24,76,4,'3 Cloves','About 3 teaspoons');
-INSERT INTO recipe_ingredients VALUES(24,22,5,'15 Oz.','Use the frozen roasted corn package from Trader Joe''s');
-INSERT INTO recipe_ingredients VALUES(24,20,6,'15 Oz.','Use the diced, fire-roasted tomatoes from Trader Joe''s');
-INSERT INTO recipe_ingredients VALUES(24,17,7,'15 Oz.','');
-INSERT INTO recipe_ingredients VALUES(24,7,8,'5 Cups','5 cups of water with 5 teaspoons Better Than Bullion');
-INSERT INTO recipe_ingredients VALUES(24,77,9,'2 Cups','');
-INSERT INTO recipe_ingredients VALUES(24,49,10,'1 Teaspoon','');
-INSERT INTO recipe_ingredients VALUES(24,78,11,'1 Teaspoon','');
-INSERT INTO recipe_ingredients VALUES(24,79,12,'1-2 Teaspoons','');
-INSERT INTO recipe_ingredients VALUES(24,21,13,'3 Tablespoons','Equivalent to 1 packet of taco seasoning');
-INSERT INTO recipe_ingredients VALUES(24,10,14,'1 ½ Cups','');
-INSERT INTO recipe_ingredients VALUES(24,80,15,'⅓ Cup','');
 INSERT INTO recipe_ingredients VALUES(27,77,1,'2 to 2 ½ Cups','');
 INSERT INTO recipe_ingredients VALUES(27,4,2,'3 Tablespoons','');
 INSERT INTO recipe_ingredients VALUES(27,6,3,'¼ Cup','');
@@ -471,6 +458,25 @@ INSERT INTO recipe_ingredients VALUES(36,26,11,'½ Cup','');
 INSERT INTO recipe_ingredients VALUES(37,116,1,'','Thawed');
 INSERT INTO recipe_ingredients VALUES(37,21,2,'','');
 INSERT INTO recipe_ingredients VALUES(37,5,3,'','');
+INSERT INTO recipe_ingredients VALUES(38,117,1,'','');
+INSERT INTO recipe_ingredients VALUES(38,62,2,'','');
+INSERT INTO recipe_ingredients VALUES(38,11,3,'','');
+INSERT INTO recipe_ingredients VALUES(38,12,4,'','');
+INSERT INTO recipe_ingredients VALUES(24,4,1,'2 Tablespoons','');
+INSERT INTO recipe_ingredients VALUES(24,1,2,'1','');
+INSERT INTO recipe_ingredients VALUES(24,75,3,'2','');
+INSERT INTO recipe_ingredients VALUES(24,76,4,'3 Cloves','About 3 teaspoons');
+INSERT INTO recipe_ingredients VALUES(24,22,5,'15 Oz.','Use the frozen roasted corn package from Trader Joe''s');
+INSERT INTO recipe_ingredients VALUES(24,20,6,'15 Oz.','Use the diced, fire-roasted tomatoes from Trader Joe''s');
+INSERT INTO recipe_ingredients VALUES(24,17,7,'15 Oz.','');
+INSERT INTO recipe_ingredients VALUES(24,7,8,'5 Cups','4 cups of water with 5 teaspoons Better Than Bullion');
+INSERT INTO recipe_ingredients VALUES(24,77,9,'2 Cups','');
+INSERT INTO recipe_ingredients VALUES(24,49,10,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(24,78,11,'1 Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(24,79,12,'1-2 Teaspoons','');
+INSERT INTO recipe_ingredients VALUES(24,21,13,'3 Tablespoons','Equivalent to 1 packet of taco seasoning');
+INSERT INTO recipe_ingredients VALUES(24,10,14,'1 ½ Cups','');
+INSERT INTO recipe_ingredients VALUES(24,80,15,'⅓ Cup','');
 CREATE TABLE tags (
   id VARCHAR(255) NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -522,7 +528,6 @@ INSERT INTO recipe_tags VALUES(23,'baked');
 INSERT INTO recipe_tags VALUES(23,'dessert');
 INSERT INTO recipe_tags VALUES(26,'vegetable');
 INSERT INTO recipe_tags VALUES(25,'vegetable');
-INSERT INTO recipe_tags VALUES(24,'soup');
 INSERT INTO recipe_tags VALUES(28,'dessert');
 INSERT INTO recipe_tags VALUES(28,'unleavened');
 INSERT INTO recipe_tags VALUES(29,'dessert');
@@ -533,5 +538,7 @@ INSERT INTO recipe_tags VALUES(34,'soup');
 INSERT INTO recipe_tags VALUES(32,'indian');
 INSERT INTO recipe_tags VALUES(33,'indian');
 INSERT INTO recipe_tags VALUES(37,'mexican');
+INSERT INTO recipe_tags VALUES(38,'vegetable');
+INSERT INTO recipe_tags VALUES(24,'soup');
 CREATE INDEX recipes_name_index ON recipes (name);
 COMMIT;

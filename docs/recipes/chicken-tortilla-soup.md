@@ -12,7 +12,7 @@
   - Use the diced, fire-roasted tomatoes from Trader Joe's
 - 15 Oz. Black Beans
 - 5 Cups Chicken Broth
-  - 5 cups of water with 5 teaspoons Better Than Bullion
+  - 4 cups of water with 5 teaspoons Better Than Bullion
 - 2 Cups Shredded Chicken
 - 1 Teaspoon Cayenne Pepper
 - 1 Teaspoon Cumin

@@ -12,6 +12,7 @@ sqlite3 recipes.db ".read recipes.sql"
 
 ## Alphabetical
 
+- [Asparagus](recipes/asparagus.md)
 - [Baked Potato](recipes/baked-potato.md)
 - [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
 - [Buffalo Chicken Chili](recipes/buffalo-chicken-chili.md)
@@ -139,5 +140,6 @@ Recipes for the **Days of Unleavened Bread**
 
 
 
+- [Asparagus](recipes/asparagus.md)
 - [Butternut Squash](recipes/butternut-squash.md)
 - [Grilled Zucchini & Squash](recipes/grilled-zucchini-&-squash.md)

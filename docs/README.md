@@ -13,6 +13,7 @@ sqlite3 recipes.db ".read recipes.sql"
 ## Alphabetical
 
 - [Asparagus](recipes/asparagus.md)
+- [Baked Parmesan Tilapia](recipes/baked-parmesan-tilapia.md)
 - [Baked Potato](recipes/baked-potato.md)
 - [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
 - [Buffalo Chicken Chili](recipes/buffalo-chicken-chili.md)
@@ -26,6 +27,7 @@ sqlite3 recipes.db ".read recipes.sql"
 - [Chicken Tortilla Soup](recipes/chicken-tortilla-soup.md)
 - [Chili](recipes/chili.md)
 - [Creamy Chicken with Penne](recipes/creamy-chicken-with-penne.md)
+- [Crock Pot Breakfast](recipes/crock-pot-breakfast.md)
 - [Crock Pot Enchiladas](recipes/crock-pot-enchiladas.md)
 - [Egg Casserole](recipes/egg-casserole.md)
 - [Egg and Onion Matzo](recipes/egg-and-onion-matzo.md)
@@ -37,6 +39,7 @@ sqlite3 recipes.db ".read recipes.sql"
 - [Lasagna](recipes/lasagna.md)
 - [Macaroni & Cheese](recipes/macaroni-&-cheese.md)
 - [Matzo Bark](recipes/matzo-bark.md)
+- [Meatballs](recipes/meatballs.md)
 - [Oatmeal Bread](recipes/oatmeal-bread.md)
 - [Peanut Butter Cookies](recipes/peanut-butter-cookies.md)
 - [Pineapple Squares](recipes/pineapple-squares.md)
@@ -67,6 +70,7 @@ sqlite3 recipes.db ".read recipes.sql"
 
 
 
+- [Crock Pot Breakfast](recipes/crock-pot-breakfast.md)
 - [Egg Casserole](recipes/egg-casserole.md)
 - [Golden Delight Pancakes](recipes/golden-delight-pancakes.md)
 - [Sweedish Pancakes](recipes/sweedish-pancakes.md)
@@ -88,6 +92,13 @@ Desserts and other sweets
 - [Chicken Tikka Masala](recipes/chicken-tikka-masala.md)
 - [Chicken Tikka Masala Marinade](recipes/chicken-tikka-masala-marinade.md)
 - [Saffron Rice](recipes/saffron-rice.md)
+
+### Meat Dish
+
+Prepared meat or fish dish
+
+- [Baked Parmesan Tilapia](recipes/baked-parmesan-tilapia.md)
+- [Meatballs](recipes/meatballs.md)
 
 ### Mexican Dish
 

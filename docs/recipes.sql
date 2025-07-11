@@ -50,6 +50,9 @@ INSERT INTO recipes VALUES(35,'Macaroni & Cheese',replace('Preheat oven to 350°
 INSERT INTO recipes VALUES(36,'Lasagna',replace('1. Brown meat with garlic and seasonings.\n2. In a bowl mix ricotta, cheese blend and spinach. (I keep some of the cheese out to sprinkle on top)\n\n**For Crockpot:**\n\n1. Spray interior of crockpot with cooking spray.\n2. Cover the bottom of the crockpot with lasagna noodles, breaking noodles apart to make them fit.\n3. Spread with half of the meat mixture, and cover with half of the pasta sauce and half of the water.\n4. Spread half of the ricotta mixture over the meat.\n5. Repeat with the other half of the noodles, meat and cheese.\n6. Sprinkle extra cheese on top.\n\nCook on low for 4.5 to 5 hours.\n\n---\n\n**For Oven:**\n\nPreheat oven to 350°F\n\n1. Spray a 9 x 13-inch dish with cooking spray.\n2. Spread a small amount of pasta sauce over the bottom of the dish.\n3. Cover with lasagna noodles.\n4. Spread half of the meat mixture over the noodles.\n5. Cover with ½ of the sauce and half of the water.\n6. Cover with ½ of the ricotta mixture.\n7. Repeat using the rest of the noodles, sauce, meat and cheese mixture.\n8. Sprinkle the top with extra cheese.\n\nCover with aluminum foil that has been sprayed with cooking spray so that it does not stick to the cheese.\n\nBake 1 hour. Remove foil and bake about 10 minutes more until bubbly and slightly browned on top.','\n',char(10)),'');
 INSERT INTO recipes VALUES(37,'Fish Tacos',replace('Preheat oven to 400°F.\n\n1. Brush olive oil onto both sides of thawed tilapia filets.\n2. Rub taco seasoning onto both sides.\n\nBake for 20 minutes on aluminum foil until flesh is flaky.','\n',char(10)),'');
 INSERT INTO recipes VALUES(38,'Asparagus',replace('Preheat oven to 425°F\n\n1. Cut off tough ends of asparagus\n2. Put asparagus on aluminum foil on baking sheet. Spray olive oil on top. Sprinkle salt and pepper.\n\nBake for 12-15 minutes.','\n',char(10)),'');
+INSERT INTO recipes VALUES(39,'Crock Pot Breakfast','Spray inside of crock pot with cooking spray. Cook on low overnight.','');
+INSERT INTO recipes VALUES(40,'Meatballs',replace('Preheat oven to 400°F.\n\n1. Line 13x9 inch pan with foil; spray with cooking spray.\n2. In a large bowl, mix all ingredients.\n3. Shape mixture into 24 (1 ½ inch) meatballs. Place 1 inch apart in pan.\n\nBake uncovered 18 to 22 minutes or until temperature reaches 160°F and is no longer pink in center.','\n',char(10)),'');
+INSERT INTO recipes VALUES(41,'Baked Parmesan Tilapia',replace('Preheat oven to 425°F.\n\n1. Line baking sheet with parchment paper\n2. Mix bread crumbs with spices, cheese, and olive oil in bowl. The consistency should be moist crumbs, not runny.\n3. Make an assembly line of 3 plates:\n   1. Flour\n   2. Ranch dressing\n   3. Bread crumb mixture\n4. Dry off the fish, then following the assembly line:\n   1. Roll in the flour (first plate).\n   2. Cover with ranch dressing (second plate).\n   3. Roll in bread crumbs (third plate).\n5. Place the fish in the baking sheet.\n\n**For Tipalpia:** Bake for 20 to 25 minutes\n\n**For Chicken:** Bake around 20 minutes or less to avoid over baking','\n',char(10)),'');
 CREATE TABLE ingredients (
   id INTEGER NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL);
@@ -170,6 +173,17 @@ INSERT INTO ingredients VALUES(114,'Lasagna Noodles');
 INSERT INTO ingredients VALUES(115,'Pasta Sauce');
 INSERT INTO ingredients VALUES(116,'Frozen Tilapia');
 INSERT INTO ingredients VALUES(117,'Asparagus');
+INSERT INTO ingredients VALUES(118,'Oats');
+INSERT INTO ingredients VALUES(119,'Apple');
+INSERT INTO ingredients VALUES(120,'Raisins');
+INSERT INTO ingredients VALUES(121,'Panko Bread Crumbs');
+INSERT INTO ingredients VALUES(122,'Ranch Dressing');
+INSERT INTO ingredients VALUES(123,'Black Pepper');
+INSERT INTO ingredients VALUES(124,'Garlic Powder');
+INSERT INTO ingredients VALUES(125,'Basil');
+INSERT INTO ingredients VALUES(126,'Dried Parsley');
+INSERT INTO ingredients VALUES(127,'Celery Salt');
+INSERT INTO ingredients VALUES(128,'Tilapia Fillets');
 CREATE TABLE recipe_ingredients (
   recipe_id INTEGER NOT NULL,
   ingredient_id INTEGER NOT NULL,
@@ -477,6 +491,38 @@ INSERT INTO recipe_ingredients VALUES(24,79,12,'1-2 Teaspoons','');
 INSERT INTO recipe_ingredients VALUES(24,21,13,'3 Tablespoons','Equivalent to 1 packet of taco seasoning');
 INSERT INTO recipe_ingredients VALUES(24,10,14,'1 ½ Cups','');
 INSERT INTO recipe_ingredients VALUES(24,80,15,'⅓ Cup','');
+INSERT INTO recipe_ingredients VALUES(39,8,1,'2 Cups','');
+INSERT INTO recipe_ingredients VALUES(39,118,2,'1 Cup','');
+INSERT INTO recipe_ingredients VALUES(39,119,3,'1 Cup','Peeled and Chopped');
+INSERT INTO recipe_ingredients VALUES(39,120,4,'½ Cup','Chopped (_Can also use dates_)');
+INSERT INTO recipe_ingredients VALUES(39,54,5,'½ Cup','Chopped');
+INSERT INTO recipe_ingredients VALUES(39,58,6,'¼ Cup','');
+INSERT INTO recipe_ingredients VALUES(39,4,7,'1 Tablespoon','Melted');
+INSERT INTO recipe_ingredients VALUES(39,11,8,'¼ Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(39,55,9,'½ Teaspoon','');
+INSERT INTO recipe_ingredients VALUES(40,14,1,'1 Pound','At least 80%');
+INSERT INTO recipe_ingredients VALUES(40,121,2,'½ Cup','');
+INSERT INTO recipe_ingredients VALUES(40,8,3,'¼ Cup','');
+INSERT INTO recipe_ingredients VALUES(40,11,4,'½ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(40,107,5,'½ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(40,12,6,'¼ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(40,48,7,'1 teaspoon','Or 1 small onion, finely shopped (¼ cup)');
+INSERT INTO recipe_ingredients VALUES(40,38,8,'1','');
+INSERT INTO recipe_ingredients VALUES(40,68,9,'2 teaspoons','');
+INSERT INTO recipe_ingredients VALUES(41,122,1,'½ Cup','');
+INSERT INTO recipe_ingredients VALUES(41,6,2,'½ Cup','');
+INSERT INTO recipe_ingredients VALUES(41,121,3,'1 Cup','');
+INSERT INTO recipe_ingredients VALUES(41,37,4,'½ Cup','Grated');
+INSERT INTO recipe_ingredients VALUES(41,11,5,'½ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(41,123,6,'½ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(41,5,7,'Dash of','');
+INSERT INTO recipe_ingredients VALUES(41,124,8,'½ teaspoon','Can substitute garlic salt if needed');
+INSERT INTO recipe_ingredients VALUES(41,48,9,'½ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(41,42,10,'½ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(41,125,11,'¼ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(41,126,12,'½ teaspoon','Optional');
+INSERT INTO recipe_ingredients VALUES(41,127,13,'½ teaspoon','Optional');
+INSERT INTO recipe_ingredients VALUES(41,128,14,'8 (6 oz)','Can also use chicken breast');
 CREATE TABLE tags (
   id VARCHAR(255) NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -492,6 +538,7 @@ INSERT INTO tags VALUES('mexican','Mexican Dish','');
 INSERT INTO tags VALUES('breakfast','Breakfast','');
 INSERT INTO tags VALUES('vegetable','Vegetable Dish','');
 INSERT INTO tags VALUES('indian','Indian Food','');
+INSERT INTO tags VALUES('meat','Meat Dish','Prepared meat or fish dish');
 CREATE TABLE recipe_tags (
   recipe_id INTEGER NOT NULL,
   tag_id VARCHAR(255) NOT NULL,
@@ -540,5 +587,8 @@ INSERT INTO recipe_tags VALUES(33,'indian');
 INSERT INTO recipe_tags VALUES(37,'mexican');
 INSERT INTO recipe_tags VALUES(38,'vegetable');
 INSERT INTO recipe_tags VALUES(24,'soup');
+INSERT INTO recipe_tags VALUES(39,'breakfast');
+INSERT INTO recipe_tags VALUES(41,'meat');
+INSERT INTO recipe_tags VALUES(40,'meat');
 CREATE INDEX recipes_name_index ON recipes (name);
 COMMIT;

@@ -10,8 +10,8 @@
 - 1 Cup Heavy Whipping Cream
 - ½ Cup Chicken Broth
 - 2 Tablespoons Balsamic Vinegar
-- 1 Teaspoon Salt
-- ¼ Teaspoon Pepper
+- 1 teaspoon Salt
+- ¼ teaspoon Pepper
 - ¾ Cup Parmesan Cheese
   - Grated
 

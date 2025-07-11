@@ -4,8 +4,8 @@
 - 1 Stick Butter
 - 2 Cups Flour
   - I do 1 cup of white flour and 1 cup of whole wheat flour
-- 3 Teaspoons Baking Powder
-- ½ Teaspoon Salt
+- 3 teaspoons Baking Powder
+- ½ teaspoon Salt
 - ¾ Cup Milk
   - With **apple cider vinegar** to make buttermilk
 

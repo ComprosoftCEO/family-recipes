@@ -12,8 +12,8 @@
 - ¼ Cup Brown Sugar
 - 1 Tablespoon Butter
   - Melted
-- ¼ Teaspoon Salt
-- ½ Teaspoon Cinnamon
+- ¼ teaspoon Salt
+- ½ teaspoon Cinnamon
 
 ## Instructions
 Spray inside of crock pot with cooking spray. Cook on low overnight.

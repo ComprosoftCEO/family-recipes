@@ -5,11 +5,11 @@
   - Softened
 - 1 Cup Brown Sugar
 - 1 Egg
-- 1 Teaspoon Vanilla
+- 1 teaspoon Vanilla
 - 20 Oz. Can Crushed Pineapple
   - Drained
 - 3 Cups Whole Wheat Flour
-- 1 ½ Teaspoons Salt
+- 1 ½ teaspoons Salt
 - 1 Cup Shredded Coconut
 
 ## Instructions

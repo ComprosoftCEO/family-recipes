@@ -2,12 +2,12 @@
 ---
 ## Ingredients
 - 1 Cup Water
-- 1 Teaspoon Salt
+- 1 teaspoon Salt
 - ¼ Cup Honey
 - 1 Egg
 - 3 ¼ Cups Flour
   - I use 1 ¼ cups of white flour and 2 cups of whole wheat flour
-- 2 Teaspoons Yeast
+- 2 teaspoons Yeast
 
 ## Instructions
 1. Use dough setting on breadmaker (#13, 1:30 min) to make dough.

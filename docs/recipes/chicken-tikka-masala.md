@@ -11,16 +11,16 @@
   - Finely grated
 - 1 Tablespoon Ginger
   - Finely grated
-- 1 ½ Teaspoons Garam Masala
-- 1 ½ Teaspoons Cumin
-- 1 Teaspoon Turmeric
-- 1 Teaspoon Ground Coriander
+- 1 ½ teaspoons Garam Masala
+- 1 ½ teaspoons Cumin
+- 1 teaspoon Turmeric
+- 1 teaspoon Ground Coriander
 - 14 Oz Tomato Puree
-- 1 Teaspoon Kashmiri Chili
-- 1 Teaspoon Red Chili Powder
-- 1 Teaspoon Salt
+- 1 teaspoon Kashmiri Chili
+- 1 teaspoon Red Chili Powder
+- 1 teaspoon Salt
 - 1 ¼ Cups Heavy Whipping Cream
-- 1 Teaspoon Brown Sugar
+- 1 teaspoon Brown Sugar
 - ¼ Cup Water
   - _If needed_
 - 4 Tablespoons Cilantro

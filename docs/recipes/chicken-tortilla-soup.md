@@ -14,9 +14,9 @@
 - 5 Cups Chicken Broth
   - 4 cups of water with 5 teaspoons Better Than Bullion
 - 2 Cups Shredded Chicken
-- 1 Teaspoon Cayenne Pepper
-- 1 Teaspoon Cumin
-- 1-2 Teaspoons Hot Sauce
+- 1 teaspoon Cayenne Pepper
+- 1 teaspoon Cumin
+- 1-2 teaspoons Hot Sauce
 - 3 Tablespoons Taco Seasoning
   - Equivalent to 1 packet of taco seasoning
 - 1 ½ Cups Sharp Cheddar Cheese

@@ -3,12 +3,12 @@
 ## Ingredients
 - 2 Cups Flour
   - Whole wheat
-- ¾ Teaspoon Salt
+- ¾ teaspoon Salt
 - ⅓ Cup Butter
   - Softened
 - 1 Egg
   - Lightly beaten
-- 2 ½ Teaspoons Onion Powder
+- 2 ½ teaspoons Onion Powder
 - ½ Cup Milk
 
 ## Instructions

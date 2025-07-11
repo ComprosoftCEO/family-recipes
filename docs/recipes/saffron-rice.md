@@ -1,7 +1,7 @@
 # Saffron Rice
 ---
 ## Ingredients
-- ¼ Teaspoon Saffron
+- ¼ teaspoon Saffron
 - ¼ Cup Water
   - Hot
 - ¾ Cup Onion
@@ -9,7 +9,7 @@
 - 2 Cups Basmati Rice
 - 3 Cups Chicken Broth
   - 3 cups of water with 3 teaspoons of Better Than Bullion
-- ¾ Teaspoon Salt
+- ¾ teaspoon Salt
 
 ## Instructions
 1. Take ⅛ teaspoon of saffron threads and put them in a spice mortar. Grind the spice with a pestle to a powdery consistency. Add the other ⅛ teaspoon of threads, but do not crush them.

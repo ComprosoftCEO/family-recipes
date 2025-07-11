@@ -2,14 +2,14 @@
 ---
 ## Ingredients
 - 2 Cups White Flour
-- ¼ Teaspoon Salt
+- ¼ teaspoon Salt
 - ½ Cup Butter
   - Softened
 - 1 Egg Yolk
 - ¾ Cup Sour Cream
 - ½ Cup Walnuts
   - Finely Chopped
-- ½ Teaspoon Cinnamon
+- ½ teaspoon Cinnamon
 - ½ Cup White Sugar
 
 ## Instructions

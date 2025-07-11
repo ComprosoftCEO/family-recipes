@@ -12,9 +12,9 @@
 - 12 Ounce Package Broccoli
   - Steamed in bag for 4 minutes
 - 2 Cups Sharp Cheddar Cheese
-- 1 Teaspoon Salt
-- ½ Teaspoon Pepper
-- ¼ Teaspoon Nutmeg
+- 1 teaspoon Salt
+- ½ teaspoon Pepper
+- ¼ teaspoon Nutmeg
 
 ## Instructions
 1. Melt butter in a large pot along with oil. Add onions, carrots, celery, salt, pepper and nutmeg. Cook until the veggies are soft.

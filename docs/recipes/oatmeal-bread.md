@@ -5,7 +5,7 @@
 - 2 Cups Oatmeal
   - Use smaller _Quick Oats_
 - 2 Tablespoons Honey
-- 1 Teaspoon Salt
+- 1 teaspoon Salt
 - ½ Cup Butter
 - ½ Cup Water
 

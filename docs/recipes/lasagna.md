@@ -5,10 +5,10 @@
   - _Or Turkey_
 - 1 Clove Minced Garlic
   - Equivalent to 1 teaspoon
-- 1 Teaspoon Dried Oregano
+- 1 teaspoon Dried Oregano
   - _Or Italian Seasoning_
-- ½ Teaspoon Salt
-- ½ Teaspoon Red Pepper Flakes
+- ½ teaspoon Salt
+- ½ teaspoon Red Pepper Flakes
 - 1 Container (15 oz.) Ricotta Cheese
 - 2 Cups (8 oz.) Shredded Italian Blend Cheese
 - 1 Package (10 oz.) Frozen Chopped Spinach

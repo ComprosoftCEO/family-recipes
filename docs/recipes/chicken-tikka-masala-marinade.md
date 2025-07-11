@@ -6,12 +6,12 @@
 - 1 Cup Plain Greek Yogurt
 - 1 ½ Tablespoons Garlic
   - Minced
-- 2 Teaspoons Garam Masala
-- 1 Teaspoon Turmeric
-- 1 Teaspoon Cumin
-- 1 Teaspoon Kashmiri Chili
+- 2 teaspoons Garam Masala
+- 1 teaspoon Turmeric
+- 1 teaspoon Cumin
+- 1 teaspoon Kashmiri Chili
   - Or ½ teaspoon ground red chili powder
-- 1 Teaspoon Salt
+- 1 teaspoon Salt
 
 ## Instructions
 1. In a bowl, combine chicken with all the marinade spices.

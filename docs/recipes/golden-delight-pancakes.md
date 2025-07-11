@@ -4,10 +4,10 @@
 - 1 Cup Cottage Cheese
 - 6 Eggs
 - ½ Cup White Flour
-- ¼ Teaspoon Salt
+- ¼ teaspoon Salt
 - ¼ Cup Olive Oil
 - ¼ Cup Milk
-- ½ Teaspoon Vanilla
+- ½ teaspoon Vanilla
 
 ## Instructions
 1. Put all ingredients into blender. Cover and blend at high speed for 1 minute, stopping to stir down once.

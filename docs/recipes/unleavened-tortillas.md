@@ -3,10 +3,10 @@
 ## Ingredients
 - 2 Cups Flour
   - White or whole wheat
-- ½ Teaspoon Salt
-- 3 ½ Teaspoons Butter
+- ½ teaspoon Salt
+- 3 ½ teaspoons Butter
 - ¾ Cup Milk
-- ½ Teaspoon Olive Oil
+- ½ teaspoon Olive Oil
   - For cooking
 
 ## Instructions

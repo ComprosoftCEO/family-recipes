@@ -5,7 +5,7 @@
 - 8 Oz. Mozzarella cheese
 - 1 Cup Flour
   - Either white or whole wheat
-- 1 Teaspoon Salt
+- 1 teaspoon Salt
 - 3 Eggs
   - Lightly beaten
 - 1 ⅓ Cup Milk

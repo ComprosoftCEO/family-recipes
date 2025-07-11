@@ -7,11 +7,11 @@
 - 1 Egg
 - 2 Cups Flour
   - Whole wheat
-- 2 Teaspoons Baking Soda
-- ¼ Teaspoon Salt
-- ½ Teaspoon Ground Cloves
-- 1 Teaspoon Cinnamon
-- 1 Teaspoon Ginger
+- 2 teaspoons Baking Soda
+- ¼ teaspoon Salt
+- ½ teaspoon Ground Cloves
+- 1 teaspoon Cinnamon
+- 1 teaspoon Ginger
 - ⅓ Cup White Sugar
   - For decoration
 

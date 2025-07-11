@@ -5,9 +5,9 @@
   - Softened
 - 2 Cups Brown Sugar
 - 3 Eggs
-- 3 Teaspoons Vanilla
+- 3 teaspoons Vanilla
 - 3 Cups Whole Wheat Flour
-- 1 ½ Teaspoons Salt
+- 1 ½ teaspoons Salt
 - 1 Cup Walnuts
   - Chopped
 - 1 Package Butterscotch Chips

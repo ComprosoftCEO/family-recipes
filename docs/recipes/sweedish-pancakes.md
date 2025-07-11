@@ -5,7 +5,7 @@
 - 1 ¼ Cups Milk
 - 1 Tablespoon White Sugar
 - ¾ Cup White Flour
-- ½ Teaspoon Salt
+- ½ teaspoon Salt
 
 ## Instructions
 1. Beat eggs until thick and lemon colored. Stir in milk.

@@ -2,11 +2,11 @@
 ---
 ## Ingredients
 - 1 Egg
-- ½ Teaspoon Salt
+- ½ teaspoon Salt
 - 1 Cup Milk
 - 1 Cup White Flour
-- 1 Teaspoon White Sugar
-- ½ Teaspoon Olive Oil
+- 1 teaspoon White Sugar
+- ½ teaspoon Olive Oil
 
 ## Instructions
 1. Preheat oven for 10 minutes at 450°F.

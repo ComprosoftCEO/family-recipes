@@ -4,11 +4,11 @@
 - 2 Cups (7 OZ) Macaroni Noodles
 - ¼ Cup Butter
 - ¼ Cup Flour
-- ½ Teaspoon Salt
-- ¼ Teaspoon Pepper
-- ¼ Teaspoon Ground Mustard
+- ½ teaspoon Salt
+- ¼ teaspoon Pepper
+- ¼ teaspoon Ground Mustard
   - Dry
-- ¼ Teaspoon Worcestershire Sauce
+- ¼ teaspoon Worcestershire Sauce
 - 2 Cups Milk
 - 2 Cups (8 Oz) Sharp Cheddar Cheese
   - Can also use **Pub Cheese**

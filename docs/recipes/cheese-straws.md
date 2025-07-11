@@ -2,8 +2,8 @@
 ---
 ## Ingredients
 - 3 ½ Cups White Flour
-- ¼ Teaspoon Cayenne Pepper
-- ½ Teaspoon Salt
+- ¼ teaspoon Cayenne Pepper
+- ½ teaspoon Salt
 - 1 ½ Cups Butter
   - Softened
 - 1 lb. Sharp Cheddar Cheese

@@ -10,9 +10,9 @@
   - Chopped
 - 3 Cloves Garlic
   - Minced
-- 1 ½ Teaspoons Chili Powder
-- 1 ½ Teaspoons Cumin
-- 1 ½ Teaspoons Paprika
+- 1 ½ teaspoons Chili Powder
+- 1 ½ teaspoons Cumin
+- 1 ½ teaspoons Paprika
 - 15.5 Oz Can Great Northern White Beans
   - Undrained
 - 16 Oz Can Refried Beans

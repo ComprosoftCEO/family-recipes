@@ -8,13 +8,13 @@
   - Warmed in microwave
 - ½ Cup Butter
   - Melted
-- 1 Teaspoon Salt
-- 1 Teaspoon White Sugar
+- 1 teaspoon Salt
+- 1 teaspoon White Sugar
 - 3 Cups Flour
   - Mixture of white and whole wheat
 - 2 Eggs
   - Slightly Beaten
-- ½ Teaspoon Baking Soda
+- ½ teaspoon Baking Soda
 
 ## Instructions
 1. In a small bowl, dissolve yeast in warm water. Let it stand about 10 minutes until creamy.

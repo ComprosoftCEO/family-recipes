@@ -6,7 +6,7 @@
 - 1 Cup Brown Sugar
 - 1 Egg
   - Slightly beaten
-- 1 Teaspoon Baking Soda
+- 1 teaspoon Baking Soda
 - 1 Cup (6 Oz) Chocolate Chips
   - Semisweet
 

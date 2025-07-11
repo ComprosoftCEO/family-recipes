@@ -2,9 +2,9 @@
 ---
 ## Ingredients
 - 2 Cups Whole Wheat Flour
-- 1 Teaspoon Salt
-- 2 Teaspoons Italian Seasoning
-- ¼ Teaspoon Pepper
+- 1 teaspoon Salt
+- 2 teaspoons Italian Seasoning
+- ¼ teaspoon Pepper
 - 4 Eggs
 - 1 ⅓ Cup Milk
 

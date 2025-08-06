@@ -12,6 +12,7 @@
 - 2 Cups Milk
 - 2 Cups (8 Oz) Sharp Cheddar Cheese
   - Can also use **Pub Cheese**
+- ½ Cup Panko Bread Crumbs
 
 ## Instructions
 Preheat oven to 350°F.
@@ -23,3 +24,6 @@ Preheat oven to 350°F.
 5. Drain macaroni. _Gently_ stir macaroni into cheese sauce.
 
 Pour into _ungreased_ 2-quart casserole. Bake uncovered for 20 to 25 minutes or until bubbly.
+
+1. While baking, melt 2 tablespoons of butter and mix it together with 1/2 cup of Panko breadcrumbs.
+2. After baking, sprinkle with breadcrumb mixture and cook or broil an additional 2-3 minutes, until brown.

@@ -46,13 +46,14 @@ INSERT INTO recipes VALUES(31,'Saffron Rice',replace('1. Take ⅛ teaspoon of sa
 INSERT INTO recipes VALUES(32,'Chicken Tikka Masala Marinade',replace('1. In a bowl, combine chicken with all the marinade spices.\n2. Marinate for 10 minutes to 1 hour, or even overnight if time allows.','\n',char(10)),'');
 INSERT INTO recipes VALUES(33,'Chicken Tikka Masala',replace('1. Heat oil in a large skillet or pot over medium-high heat. When sizzling, add chicken pieces in batches of two or three, making sure to not crowd the pan. Fry until browned for only 3 minutes on each side. Set aside and keep warn. (_The chicken will be finished cooking in the sauce._)\n2. Melt the butter in the same pan. Fry the onions until soft (about 3 minutes) while scraping up any browned bits stuck on the bottom of the pan.\n3. Add garlic and ginger. Sauté for 1 minute until fragrant, then add garam masala, cumin, tumeric, and coriander. Fry for about 20 seconds until fragrant, while stirring occasionally.\n4. Pour in the tomato puree, chili powders, and salt. Let simmer for about 10-15 minutes, stirring occasionally until sauce thickens and becomes a deep brown red color.\n5. Stir the cream and sugar through the sauce.\n6. Add the chicken and its juices back into the pan and cook for an additional 8-10 minutes until chicken is cooned through and the sauce is thick and bubbling. If needed, pour in water to thin out the sauce.\n\nGarnish with cilantro if desired.','\n',char(10)),'');
 INSERT INTO recipes VALUES(34,'Buffalo Chicken Chili',replace('1. Cook chicken in olive oil, breaking meat until small pieces until cooked throughout (about 8-10 minutes). Set aside and keep warm.\n2. Chop baby carrots into small pieces. Place in water and microwave for 4-5 minutes until soft.\n3. In the same (now empty) pan, add onion, carrot, celery, garlic, chili powder, cumin, paprika, salt, and pepper. Cook while stirring until the vegetables soften (about 5-6 minutes).\n4. Add white beans, refried beans, chicken broth, water, and chicken. Bring to a boil and simmer covered on medium-low about 25-30 minutes, stirring occasionally.','\n',char(10)),'');
-INSERT INTO recipes VALUES(35,'Macaroni & Cheese',replace('Preheat oven to 350°F.\n\n1. Cook macaroni noodles as directed on package.\n2. While macaroni is cooking, melt butter in 3-quart saucepan over low heat. Stir in flour, salt, pepper, dry mustard, and Worcestershire sauce. Cook over low heat, stirring constantly, until mixture is smooth and bubbly; remove from heat.\n3. Stir in milk. Heat to boiling, stirring constantly. Boil and stir 1 minute.\n4. Stir in cheese. Cook, stirring occasionally, until cheese is melted.\n5. Drain macaroni. _Gently_ stir macaroni into cheese sauce.\n\nPour into _ungreased_ 2-quart casserole. Bake uncovered for 20 to 25 minutes or until bubbly.','\n',char(10)),'');
+INSERT INTO recipes VALUES(35,'Macaroni & Cheese',replace('Preheat oven to 350°F.\n\n1. Cook macaroni noodles as directed on package.\n2. While macaroni is cooking, melt butter in 3-quart saucepan over low heat. Stir in flour, salt, pepper, dry mustard, and Worcestershire sauce. Cook over low heat, stirring constantly, until mixture is smooth and bubbly; remove from heat.\n3. Stir in milk. Heat to boiling, stirring constantly. Boil and stir 1 minute.\n4. Stir in cheese. Cook, stirring occasionally, until cheese is melted.\n5. Drain macaroni. _Gently_ stir macaroni into cheese sauce.\n\nPour into _ungreased_ 2-quart casserole. Bake uncovered for 20 to 25 minutes or until bubbly.\n\n1. While baking, melt 2 tablespoons of butter and mix it together with 1/2 cup of Panko breadcrumbs.\n2. After baking, sprinkle with breadcrumb mixture and cook or broil an additional 2-3 minutes, until brown.','\n',char(10)),'');
 INSERT INTO recipes VALUES(36,'Lasagna',replace('1. Brown meat with garlic and seasonings.\n2. In a bowl mix ricotta, cheese blend and spinach. (I keep some of the cheese out to sprinkle on top)\n\n**For Crockpot:**\n\n1. Spray interior of crockpot with cooking spray.\n2. Cover the bottom of the crockpot with lasagna noodles, breaking noodles apart to make them fit.\n3. Spread with half of the meat mixture, and cover with half of the pasta sauce and half of the water.\n4. Spread half of the ricotta mixture over the meat.\n5. Repeat with the other half of the noodles, meat and cheese.\n6. Sprinkle extra cheese on top.\n\nCook on low for 4.5 to 5 hours.\n\n---\n\n**For Oven:**\n\nPreheat oven to 350°F\n\n1. Spray a 9 x 13-inch dish with cooking spray.\n2. Spread a small amount of pasta sauce over the bottom of the dish.\n3. Cover with lasagna noodles.\n4. Spread half of the meat mixture over the noodles.\n5. Cover with ½ of the sauce and half of the water.\n6. Cover with ½ of the ricotta mixture.\n7. Repeat using the rest of the noodles, sauce, meat and cheese mixture.\n8. Sprinkle the top with extra cheese.\n\nCover with aluminum foil that has been sprayed with cooking spray so that it does not stick to the cheese.\n\nBake 1 hour. Remove foil and bake about 10 minutes more until bubbly and slightly browned on top.','\n',char(10)),'');
 INSERT INTO recipes VALUES(37,'Fish Tacos',replace('Preheat oven to 400°F.\n\n1. Brush olive oil onto both sides of thawed tilapia filets.\n2. Rub taco seasoning onto both sides.\n\nBake for 20 minutes on aluminum foil until flesh is flaky.','\n',char(10)),'');
 INSERT INTO recipes VALUES(38,'Asparagus',replace('Preheat oven to 425°F\n\n1. Cut off tough ends of asparagus\n2. Put asparagus on aluminum foil on baking sheet. Spray olive oil on top. Sprinkle salt and pepper.\n\nBake for 12-15 minutes.','\n',char(10)),'');
 INSERT INTO recipes VALUES(39,'Crock Pot Breakfast','Spray inside of crock pot with cooking spray. Cook on low overnight.','');
 INSERT INTO recipes VALUES(40,'Meatballs',replace('Preheat oven to 400°F.\n\n1. Line 13x9 inch pan with foil; spray with cooking spray.\n2. In a large bowl, mix all ingredients.\n3. Shape mixture into 24 (1 ½ inch) meatballs. Place 1 inch apart in pan.\n\nBake uncovered 18 to 22 minutes or until temperature reaches 160°F and is no longer pink in center.','\n',char(10)),'');
 INSERT INTO recipes VALUES(41,'Baked Parmesan Tilapia',replace('Preheat oven to 425°F.\n\n1. Line baking sheet with parchment paper\n2. Mix bread crumbs with spices, cheese, and olive oil in bowl. The consistency should be moist crumbs, not runny.\n3. Make an assembly line of 3 plates:\n   1. Flour\n   2. Ranch dressing\n   3. Bread crumb mixture\n4. Dry off the fish, then following the assembly line:\n   1. Roll in the flour (first plate).\n   2. Cover with ranch dressing (second plate).\n   3. Roll in bread crumbs (third plate).\n5. Place the fish in the baking sheet.\n\n**For Tipalpia:** Bake for 20 to 25 minutes\n\n**For Chicken:** Bake around 20 minutes or less to avoid over baking','\n',char(10)),'');
+INSERT INTO recipes VALUES(42,'Simple Scones',replace('Preheat oven to 400°F.\n\n1. Put the flour, sugar, baking powder, baking soda, and salt in the food processor and pulse it a few times to mix it all together.\n2. Add the butter and mix-in and pulse the mixture again until the butter is fine pieces.\n3. In a separate bowl, whisk the egg and then add the Greek yogurt to the bowl.\n4. Add the Greek yogurt and egg to the food processor.\n5. Continue pulsing until the mixture is moist and starts to clump together (it should be a sticky consistency).\n   - If the mixture is too dry, add 1 teaspoon of Greek yogurt at a time and continue pulsing the mixture.\n6. Place the dough onto a flat surface and with your hands, flatten it out into ¾ inch thickness.\n7. Use the biscuit cutter to cut out circular scones and place them on a pan with parchment paper.\n\nBake 15 to 17 minutes. Cool for 5 minutes.','\n',char(10)),'');
 CREATE TABLE ingredients (
   id INTEGER NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL);
@@ -184,6 +185,8 @@ INSERT INTO ingredients VALUES(125,'Basil');
 INSERT INTO ingredients VALUES(126,'Dried Parsley');
 INSERT INTO ingredients VALUES(127,'Celery Salt');
 INSERT INTO ingredients VALUES(128,'Tilapia Fillets');
+INSERT INTO ingredients VALUES(129,'Seasoning');
+INSERT INTO ingredients VALUES(130,'Mix-ins');
 CREATE TABLE recipe_ingredients (
   recipe_id INTEGER NOT NULL,
   ingredient_id INTEGER NOT NULL,
@@ -423,15 +426,6 @@ INSERT INTO recipe_ingredients VALUES(34,26,13,'½ Cup','');
 INSERT INTO recipe_ingredients VALUES(34,79,14,'½ Cup','');
 INSERT INTO recipe_ingredients VALUES(34,11,15,'','');
 INSERT INTO recipe_ingredients VALUES(34,12,16,'','');
-INSERT INTO recipe_ingredients VALUES(35,105,1,'2 Cups (7 OZ)','');
-INSERT INTO recipe_ingredients VALUES(35,4,2,'¼ Cup','');
-INSERT INTO recipe_ingredients VALUES(35,24,3,'¼ Cup','');
-INSERT INTO recipe_ingredients VALUES(35,11,4,'½ teaspoon','');
-INSERT INTO recipe_ingredients VALUES(35,12,5,'¼ teaspoon','');
-INSERT INTO recipe_ingredients VALUES(35,106,6,'¼ teaspoon','Dry');
-INSERT INTO recipe_ingredients VALUES(35,107,7,'¼ teaspoon','');
-INSERT INTO recipe_ingredients VALUES(35,8,8,'2 Cups','');
-INSERT INTO recipe_ingredients VALUES(35,10,9,'2 Cups (8 Oz)','Can also use **Pub Cheese**');
 INSERT INTO recipe_ingredients VALUES(32,92,1,'28 Oz','Boneless and skinless chicken thighs, or chicken breasts');
 INSERT INTO recipe_ingredients VALUES(32,93,2,'1 Cup','');
 INSERT INTO recipe_ingredients VALUES(32,76,3,'1 ½ Tablespoons','Minced');
@@ -523,6 +517,26 @@ INSERT INTO recipe_ingredients VALUES(41,125,11,'¼ teaspoon','');
 INSERT INTO recipe_ingredients VALUES(41,126,12,'½ teaspoon','Optional');
 INSERT INTO recipe_ingredients VALUES(41,127,13,'½ teaspoon','Optional');
 INSERT INTO recipe_ingredients VALUES(41,128,14,'8 (6 oz)','Can also use chicken breast');
+INSERT INTO recipe_ingredients VALUES(35,105,1,'2 Cups (7 OZ)','');
+INSERT INTO recipe_ingredients VALUES(35,4,2,'¼ Cup','');
+INSERT INTO recipe_ingredients VALUES(35,24,3,'¼ Cup','');
+INSERT INTO recipe_ingredients VALUES(35,11,4,'½ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(35,12,5,'¼ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(35,106,6,'¼ teaspoon','Dry');
+INSERT INTO recipe_ingredients VALUES(35,107,7,'¼ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(35,8,8,'2 Cups','');
+INSERT INTO recipe_ingredients VALUES(35,10,9,'2 Cups (8 Oz)','Can also use **Pub Cheese**');
+INSERT INTO recipe_ingredients VALUES(35,121,10,'½ Cup','');
+INSERT INTO recipe_ingredients VALUES(42,24,1,'2 Cups','1 cup white flour, 1 cup whole wheat');
+INSERT INTO recipe_ingredients VALUES(42,39,2,'⅓ Cup','');
+INSERT INTO recipe_ingredients VALUES(42,25,3,'1 teaspoon','');
+INSERT INTO recipe_ingredients VALUES(42,70,4,'¼ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(42,11,5,'½ teaspoon','');
+INSERT INTO recipe_ingredients VALUES(42,129,6,'Dash of','Depends on type of scone (e.g., Pumpkin Pie Spice)');
+INSERT INTO recipe_ingredients VALUES(42,57,7,'8 teaspoons','');
+INSERT INTO recipe_ingredients VALUES(42,130,8,'½ cup','Dried fruit, chocolate chips, etc.');
+INSERT INTO recipe_ingredients VALUES(42,93,9,'½ Cup','');
+INSERT INTO recipe_ingredients VALUES(42,38,10,'1','');
 CREATE TABLE tags (
   id VARCHAR(255) NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -590,5 +604,6 @@ INSERT INTO recipe_tags VALUES(24,'soup');
 INSERT INTO recipe_tags VALUES(39,'breakfast');
 INSERT INTO recipe_tags VALUES(41,'meat');
 INSERT INTO recipe_tags VALUES(40,'meat');
+INSERT INTO recipe_tags VALUES(42,'breakfast');
 CREATE INDEX recipes_name_index ON recipes (name);
 COMMIT;

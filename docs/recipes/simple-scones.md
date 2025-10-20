@@ -28,3 +28,6 @@ Preheat oven to 400°F.
 7. Use the biscuit cutter to cut out circular scones and place them on a pan with parchment paper.
 
 Bake 15 to 17 minutes. Cool for 5 minutes.
+
+**Notes:**
+You can find the [glaze recipe here](simple-scones-glaze.md).

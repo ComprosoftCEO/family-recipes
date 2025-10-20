@@ -47,6 +47,7 @@ sqlite3 recipes.db ".read recipes.sql"
 - [Popovers](recipes/popovers.md)
 - [Saffron Rice](recipes/saffron-rice.md)
 - [Simple Scones](recipes/simple-scones.md)
+- [Simple Scones Glaze](recipes/simple-scones-glaze.md)
 - [Sweedish Pancakes](recipes/sweedish-pancakes.md)
 - [Swiss Butterhorns](recipes/swiss-butterhorns.md)
 - [Taco Chili](recipes/taco-chili.md)
@@ -66,6 +67,8 @@ sqlite3 recipes.db ".read recipes.sql"
 - [Honey Wheat Rolls](recipes/honey-wheat-rolls.md)
 - [Pizza Dough](recipes/pizza-dough.md)
 - [Popovers](recipes/popovers.md)
+- [Simple Scones](recipes/simple-scones.md)
+- [Simple Scones Glaze](recipes/simple-scones-glaze.md)
 
 ### Breakfast
 
@@ -74,7 +77,6 @@ sqlite3 recipes.db ".read recipes.sql"
 - [Crock Pot Breakfast](recipes/crock-pot-breakfast.md)
 - [Egg Casserole](recipes/egg-casserole.md)
 - [Golden Delight Pancakes](recipes/golden-delight-pancakes.md)
-- [Simple Scones](recipes/simple-scones.md)
 - [Sweedish Pancakes](recipes/sweedish-pancakes.md)
 - [Yeast Waffles](recipes/yeast-waffles.md)
 
@@ -85,6 +87,8 @@ Desserts and other sweets
 - [Ginger Snaps](recipes/ginger-snaps.md)
 - [Peanut Butter Cookies](recipes/peanut-butter-cookies.md)
 - [Pineapple Squares](recipes/pineapple-squares.md)
+- [Simple Scones](recipes/simple-scones.md)
+- [Simple Scones Glaze](recipes/simple-scones-glaze.md)
 - [Yum Yum Bars](recipes/yum-yum-bars.md)
 
 ### Indian Food

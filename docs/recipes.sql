@@ -16,7 +16,7 @@ INSERT INTO recipes VALUES(1,'Broccoli Cheddar Soup',replace('1. Melt butter in 
 INSERT INTO recipes VALUES(2,'Taco Chili',replace('1. Brown the ground beef in a frying pan with onions and peppers until cooked through.\n2. Place all ingredients in a crock pot. Cook on low for 8 hours.','\n',char(10)),'');
 INSERT INTO recipes VALUES(3,'Buttermilk Biscuits',replace('1. Heat oven to 400°F\n2. Cut butter into flour, sugar, baking powder, and salt in medium bowl, using pastry blender, until mixture looks like fine crumbs.\n3. Stir in milk until dough leaves side of bowl (dough will be soft and sticky)\n4. Turn dough onto lightly floured surface. Kneed lightly 10 times. Roll or pat 1/2 inch thick. Cut with flowered 2 1/2-inch round cutter. Place on ungreased cookie sheet about 1 inch apart for crusty sides, touching for soft sides.\n5. Bake for 10 to 12 minutes until golden brown.','\n',char(10)),'');
 INSERT INTO recipes VALUES(4,'Pizza Dough',replace('Put in bread maker. Use setting 12, `Pizza Dough`. It takes 45 minutes.\n\nPizza cooks at 425°F for 15 minutes. (Or 20 minutes if oven takes awhile to heat up)','\n',char(10)),'');
-INSERT INTO recipes VALUES(5,'Crock Pot Enchiladas',replace('1. Brown 1 pound of ground beef with peppers and onions. Add some salt & pepper.\n2. Mix in ½ jar of enchilada sauce.\n3. Spray crockpot with cooking spray. Spread a little enchilada sauce on the bottom. Add ⅓ flour tortillas. Cover with more enchilada sauce. Put ⅓rd of meat and ⅓rd of shredded cheese. Repeat 2 more times, ending with cheese.\n4. Cook in crockpot 4 hours on low.','\n',char(10)),'');
+INSERT INTO recipes VALUES(5,'Crock Pot Enchiladas',replace('**Crock-Pot:**\n\n1. Brown 1 pound of ground beef with peppers and onions. Add some salt & pepper.\n2. Mix in ½ jar of enchilada sauce.\n3. Spray crock-pot with cooking spray. Spread a little enchilada sauce on the bottom. Add ⅓ flour tortillas. Cover with more enchilada sauce. Put ⅓rd of meat and ⅓rd of shredded cheese. Repeat 2 more times, ending with cheese.\n4. Cook in crock-pot 4 hours on low.\n\n**Oven:**\n\nPreheat oven to 350°F.\n\n1. Brown 1 pound of ground beef with peppers and onions. Add taco seasoning, salt, & pepper.\n2. Spray a 9 x 13-inch dish with cooking spray. Put enchilada sauce on the bottom and spread around with a spoon.\n3. Use the meat mixture, start filling tortillas, wrap them, and fill the dish with them.\n4. Pour the remaining enchilada sauce on top of the dish and cover with cheese.\n\nBake for 30 minutes','\n',char(10)),'');
 INSERT INTO recipes VALUES(6,'Creamy Chicken with Penne',replace('1. Cook 1 pound of penne pasta following package directions; stir in 4 cups broccoli flowerets for last 2 minutes.\n2. Meanwhile, sauté 1 onion, sliced, in 1 tablespoon olive oil in large skillet 6 minutes, until softened.\n3. Add ½ pound boneless, skinless chicken breasts, cut into small pieces; sauté 4 minutes until cooked.\n4. Stir in ¾ cup drained, finely chopped sun-dried tomatoes in oil, 1 cup heavy cream, ½ chicken broth, 2 tablespoons balsamic vinegar, 1 teaspoon salt, and ¼ teaspoon black pepper; simmer 4 minutes.\n5. Drain pasta, broccoli; toss with chicken mixture and ¾ cups grated Parmesan cheese.\n\nMakes 6 servings at $1.50 each.','\n',char(10)),'');
 INSERT INTO recipes VALUES(7,'Honey Wheat Rolls',replace('1. Use dough setting on breadmaker (#13, 1:30 min) to make dough.\n2. Shape into rolls and place in **greased pan**. Let it rise for 30 minutes covered by a towel.\n3. Bake in 350°F oven for 20-25 minutes. Longer time for larger rolls.\n\n**How to rise:**\nSet oven at 190°F but turn it off after ≈5 minutes (so oven doesn''t actually get to 190°F). Put rolls in oven covered by towel for 30 minutes.\n\n_Note: take rolls out after rising and wait until oven hits 350°F before putting them back in._','\n',char(10)),'');
 INSERT INTO recipes VALUES(8,'Popovers',replace('1. Preheat oven for 10 minutes at 450°F.\n2. Grease and heat muffin tins for 3-4 minutes in oven before filling.\n3. Combine egg, salt, milk, flour, sugar, and oil.\n4. Fill muffin tins half-full and bake for 15 minutes.\n5. Take out muffin tins, lower oven to 350°F, then bake another 15 minutes.','\n',char(10)),'');
@@ -53,7 +53,8 @@ INSERT INTO recipes VALUES(38,'Asparagus',replace('Preheat oven to 425°F\n\n1. 
 INSERT INTO recipes VALUES(39,'Crock Pot Breakfast','Spray inside of crock pot with cooking spray. Cook on low overnight.','');
 INSERT INTO recipes VALUES(40,'Meatballs',replace('Preheat oven to 400°F.\n\n1. Line 13x9 inch pan with foil; spray with cooking spray.\n2. In a large bowl, mix all ingredients.\n3. Shape mixture into 24 (1 ½ inch) meatballs. Place 1 inch apart in pan.\n\nBake uncovered 18 to 22 minutes or until temperature reaches 160°F and is no longer pink in center.','\n',char(10)),'');
 INSERT INTO recipes VALUES(41,'Baked Parmesan Tilapia',replace('Preheat oven to 425°F.\n\n1. Line baking sheet with parchment paper\n2. Mix bread crumbs with spices, cheese, and olive oil in bowl. The consistency should be moist crumbs, not runny.\n3. Make an assembly line of 3 plates:\n   1. Flour\n   2. Ranch dressing\n   3. Bread crumb mixture\n4. Dry off the fish, then following the assembly line:\n   1. Roll in the flour (first plate).\n   2. Cover with ranch dressing (second plate).\n   3. Roll in bread crumbs (third plate).\n5. Place the fish in the baking sheet.\n\n**For Tipalpia:** Bake for 20 to 25 minutes\n\n**For Chicken:** Bake around 20 minutes or less to avoid over baking','\n',char(10)),'');
-INSERT INTO recipes VALUES(42,'Simple Scones',replace('Preheat oven to 400°F.\n\n1. Put the flour, sugar, baking powder, baking soda, and salt in the food processor and pulse it a few times to mix it all together.\n2. Add the butter and mix-in and pulse the mixture again until the butter is fine pieces.\n3. In a separate bowl, whisk the egg and then add the Greek yogurt to the bowl.\n4. Add the Greek yogurt and egg to the food processor.\n5. Continue pulsing until the mixture is moist and starts to clump together (it should be a sticky consistency).\n   - If the mixture is too dry, add 1 teaspoon of Greek yogurt at a time and continue pulsing the mixture.\n6. Place the dough onto a flat surface and with your hands, flatten it out into ¾ inch thickness.\n7. Use the biscuit cutter to cut out circular scones and place them on a pan with parchment paper.\n\nBake 15 to 17 minutes. Cool for 5 minutes.','\n',char(10)),'');
+INSERT INTO recipes VALUES(42,'Simple Scones',replace('Preheat oven to 400°F.\n\n1. Put the flour, sugar, baking powder, baking soda, and salt in the food processor and pulse it a few times to mix it all together.\n2. Add the butter and mix-in and pulse the mixture again until the butter is fine pieces.\n3. In a separate bowl, whisk the egg and then add the Greek yogurt to the bowl.\n4. Add the Greek yogurt and egg to the food processor.\n5. Continue pulsing until the mixture is moist and starts to clump together (it should be a sticky consistency).\n   - If the mixture is too dry, add 1 teaspoon of Greek yogurt at a time and continue pulsing the mixture.\n6. Place the dough onto a flat surface and with your hands, flatten it out into ¾ inch thickness.\n7. Use the biscuit cutter to cut out circular scones and place them on a pan with parchment paper.\n\nBake 15 to 17 minutes. Cool for 5 minutes.','\n',char(10)),'You can find the [glaze recipe here](simple-scones-glaze.md).');
+INSERT INTO recipes VALUES(43,'Simple Scones Glaze',replace('1. Microwave the water and butter together to heat the water and melt the butter. (_Use the measuring cup with a spout so you can easily pour the mixture_)\n2. Stir in the powdered sugar and essential oil drops.\n3. Pour the mixture over the scones after they are fully cooled.','\n',char(10)),'');
 CREATE TABLE ingredients (
   id INTEGER NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL);
@@ -187,6 +188,8 @@ INSERT INTO ingredients VALUES(127,'Celery Salt');
 INSERT INTO ingredients VALUES(128,'Tilapia Fillets');
 INSERT INTO ingredients VALUES(129,'Seasoning');
 INSERT INTO ingredients VALUES(130,'Mix-ins');
+INSERT INTO ingredients VALUES(131,'Powdered Sugar');
+INSERT INTO ingredients VALUES(132,'Essential Oil');
 CREATE TABLE recipe_ingredients (
   recipe_id INTEGER NOT NULL,
   ingredient_id INTEGER NOT NULL,
@@ -250,12 +253,6 @@ INSERT INTO recipe_ingredients VALUES(6,36,8,'2 Tablespoons','');
 INSERT INTO recipe_ingredients VALUES(6,11,9,'1 teaspoon','');
 INSERT INTO recipe_ingredients VALUES(6,12,10,'¼ teaspoon','');
 INSERT INTO recipe_ingredients VALUES(6,37,11,'¾ Cup','Grated');
-INSERT INTO recipe_ingredients VALUES(5,14,1,'1 Pound','');
-INSERT INTO recipe_ingredients VALUES(5,15,2,'1 Chopped','');
-INSERT INTO recipe_ingredients VALUES(5,1,3,'½ Chopped','');
-INSERT INTO recipe_ingredients VALUES(5,29,4,'1 Bottle','');
-INSERT INTO recipe_ingredients VALUES(5,30,5,'1 Package','');
-INSERT INTO recipe_ingredients VALUES(5,31,6,'1 Bag','');
 INSERT INTO recipe_ingredients VALUES(8,38,1,'1','');
 INSERT INTO recipe_ingredients VALUES(8,11,2,'½ teaspoon','');
 INSERT INTO recipe_ingredients VALUES(8,8,3,'1 Cup','');
@@ -527,6 +524,12 @@ INSERT INTO recipe_ingredients VALUES(35,107,7,'¼ teaspoon','');
 INSERT INTO recipe_ingredients VALUES(35,8,8,'2 Cups','');
 INSERT INTO recipe_ingredients VALUES(35,10,9,'2 Cups (8 Oz)','Can also use **Pub Cheese**');
 INSERT INTO recipe_ingredients VALUES(35,121,10,'½ Cup','');
+INSERT INTO recipe_ingredients VALUES(5,14,1,'1 Pound','');
+INSERT INTO recipe_ingredients VALUES(5,15,2,'1 Chopped','');
+INSERT INTO recipe_ingredients VALUES(5,1,3,'½ Chopped','');
+INSERT INTO recipe_ingredients VALUES(5,29,4,'1 Bottle','');
+INSERT INTO recipe_ingredients VALUES(5,30,5,'1 Package','');
+INSERT INTO recipe_ingredients VALUES(5,31,6,'1 Bag','');
 INSERT INTO recipe_ingredients VALUES(42,24,1,'2 Cups','1 cup white flour, 1 cup whole wheat');
 INSERT INTO recipe_ingredients VALUES(42,39,2,'⅓ Cup','');
 INSERT INTO recipe_ingredients VALUES(42,25,3,'1 teaspoon','');
@@ -537,6 +540,10 @@ INSERT INTO recipe_ingredients VALUES(42,57,7,'8 teaspoons','');
 INSERT INTO recipe_ingredients VALUES(42,130,8,'½ cup','Dried fruit, chocolate chips, etc.');
 INSERT INTO recipe_ingredients VALUES(42,93,9,'½ Cup','');
 INSERT INTO recipe_ingredients VALUES(42,38,10,'1','');
+INSERT INTO recipe_ingredients VALUES(43,131,1,'1 Cup','');
+INSERT INTO recipe_ingredients VALUES(43,4,2,'2 Tablespoons','Melted');
+INSERT INTO recipe_ingredients VALUES(43,26,3,'1 Tablespoon','Heated in microwave for 1 minute');
+INSERT INTO recipe_ingredients VALUES(43,132,4,'3 Drops','Orange Extract');
 CREATE TABLE tags (
   id VARCHAR(255) NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -567,7 +574,6 @@ INSERT INTO recipe_tags VALUES(4,'baked');
 INSERT INTO recipe_tags VALUES(7,'baked');
 INSERT INTO recipe_tags VALUES(7,'sabbath');
 INSERT INTO recipe_tags VALUES(6,'pasta');
-INSERT INTO recipe_tags VALUES(5,'mexican');
 INSERT INTO recipe_tags VALUES(8,'baked');
 INSERT INTO recipe_tags VALUES(9,'soup');
 INSERT INTO recipe_tags VALUES(8,'unleavened');
@@ -604,6 +610,10 @@ INSERT INTO recipe_tags VALUES(24,'soup');
 INSERT INTO recipe_tags VALUES(39,'breakfast');
 INSERT INTO recipe_tags VALUES(41,'meat');
 INSERT INTO recipe_tags VALUES(40,'meat');
-INSERT INTO recipe_tags VALUES(42,'breakfast');
+INSERT INTO recipe_tags VALUES(5,'mexican');
+INSERT INTO recipe_tags VALUES(42,'baked');
+INSERT INTO recipe_tags VALUES(42,'dessert');
+INSERT INTO recipe_tags VALUES(43,'baked');
+INSERT INTO recipe_tags VALUES(43,'dessert');
 CREATE INDEX recipes_name_index ON recipes (name);
 COMMIT;

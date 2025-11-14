@@ -13,6 +13,7 @@ sqlite3 recipes.db ".read recipes.sql"
 ## Alphabetical
 
 - [Asparagus](recipes/asparagus.md)
+- [Baked Apples](recipes/baked-apples.md)
 - [Baked Parmesan Tilapia](recipes/baked-parmesan-tilapia.md)
 - [Baked Potato](recipes/baked-potato.md)
 - [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
@@ -74,6 +75,7 @@ sqlite3 recipes.db ".read recipes.sql"
 
 
 
+- [Baked Apples](recipes/baked-apples.md)
 - [Crock Pot Breakfast](recipes/crock-pot-breakfast.md)
 - [Egg Casserole](recipes/egg-casserole.md)
 - [Golden Delight Pancakes](recipes/golden-delight-pancakes.md)

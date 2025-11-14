@@ -55,6 +55,7 @@ INSERT INTO recipes VALUES(40,'Meatballs',replace('Preheat oven to 400°F.\n\n1.
 INSERT INTO recipes VALUES(41,'Baked Parmesan Tilapia',replace('Preheat oven to 425°F.\n\n1. Line baking sheet with parchment paper\n2. Mix bread crumbs with spices, cheese, and olive oil in bowl. The consistency should be moist crumbs, not runny.\n3. Make an assembly line of 3 plates:\n   1. Flour\n   2. Ranch dressing\n   3. Bread crumb mixture\n4. Dry off the fish, then following the assembly line:\n   1. Roll in the flour (first plate).\n   2. Cover with ranch dressing (second plate).\n   3. Roll in bread crumbs (third plate).\n5. Place the fish in the baking sheet.\n\n**For Tipalpia:** Bake for 20 to 25 minutes\n\n**For Chicken:** Bake around 20 minutes or less to avoid over baking','\n',char(10)),'');
 INSERT INTO recipes VALUES(42,'Simple Scones',replace('Preheat oven to 400°F.\n\n1. Put the flour, sugar, baking powder, baking soda, and salt in the food processor and pulse it a few times to mix it all together.\n2. Add the butter and mix-in and pulse the mixture again until the butter is fine pieces.\n3. In a separate bowl, whisk the egg and then add the Greek yogurt to the bowl.\n4. Add the Greek yogurt and egg to the food processor.\n5. Continue pulsing until the mixture is moist and starts to clump together (it should be a sticky consistency).\n   - If the mixture is too dry, add 1 teaspoon of Greek yogurt at a time and continue pulsing the mixture.\n6. Place the dough onto a flat surface and with your hands, flatten it out into ¾ inch thickness.\n7. Use the biscuit cutter to cut out circular scones and place them on a pan with parchment paper.\n\nBake 15 to 17 minutes. Cool for 5 minutes.','\n',char(10)),'You can find the [glaze recipe here](simple-scones-glaze.md).');
 INSERT INTO recipes VALUES(43,'Simple Scones Glaze',replace('1. Microwave the water and butter together to heat the water and melt the butter. (_Use the measuring cup with a spout so you can easily pour the mixture_)\n2. Stir in the powdered sugar and essential oil drops.\n3. Pour the mixture over the scones after they are fully cooled.','\n',char(10)),'');
+INSERT INTO recipes VALUES(44,'Baked Apples',replace('1. Core the apples and put them in a deep dish (_that has a lid_).\n2. Stuff the middle of the apples with raisins.\n3. Add the brown sugar and apple pie spice to the top.\n4. Put a small dollop of coconut oil on top of each apple and sprinkle with a little salt.\n5. Put the water / apple cider in the bottom (about 3 Tablespoons of mixture).\n6. Cover with the lid and microwave for 5 minutes and check on the apples\n7. Microwave another 3-5 minutes and watch for the inside of the apple to overflow','\n',char(10)),'');
 CREATE TABLE ingredients (
   id INTEGER NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL);
@@ -190,6 +191,10 @@ INSERT INTO ingredients VALUES(129,'Seasoning');
 INSERT INTO ingredients VALUES(130,'Mix-ins');
 INSERT INTO ingredients VALUES(131,'Powdered Sugar');
 INSERT INTO ingredients VALUES(132,'Essential Oil');
+INSERT INTO ingredients VALUES(133,'Green Apples');
+INSERT INTO ingredients VALUES(134,'Apple Pie Spice');
+INSERT INTO ingredients VALUES(135,'Coconut Oil');
+INSERT INTO ingredients VALUES(136,'Apple Cider');
 CREATE TABLE recipe_ingredients (
   recipe_id INTEGER NOT NULL,
   ingredient_id INTEGER NOT NULL,
@@ -544,6 +549,13 @@ INSERT INTO recipe_ingredients VALUES(43,131,1,'1 Cup','');
 INSERT INTO recipe_ingredients VALUES(43,4,2,'2 Tablespoons','Melted');
 INSERT INTO recipe_ingredients VALUES(43,26,3,'1 Tablespoon','Heated in microwave for 1 minute');
 INSERT INTO recipe_ingredients VALUES(43,132,4,'3 Drops','Orange Extract');
+INSERT INTO recipe_ingredients VALUES(44,133,1,'4','_Medium_ Sized');
+INSERT INTO recipe_ingredients VALUES(44,58,2,'⅓ Cup','');
+INSERT INTO recipe_ingredients VALUES(44,120,3,'Handful of','');
+INSERT INTO recipe_ingredients VALUES(44,134,4,'1 Tablespoon','');
+INSERT INTO recipe_ingredients VALUES(44,135,5,'Spoon','One spoon per apple');
+INSERT INTO recipe_ingredients VALUES(44,11,6,'Dash of','');
+INSERT INTO recipe_ingredients VALUES(44,136,7,'Dash of','Mixed with water');
 CREATE TABLE tags (
   id VARCHAR(255) NOT NULL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -615,5 +627,6 @@ INSERT INTO recipe_tags VALUES(42,'baked');
 INSERT INTO recipe_tags VALUES(42,'dessert');
 INSERT INTO recipe_tags VALUES(43,'baked');
 INSERT INTO recipe_tags VALUES(43,'dessert');
+INSERT INTO recipe_tags VALUES(44,'breakfast');
 CREATE INDEX recipes_name_index ON recipes (name);
 COMMIT;
